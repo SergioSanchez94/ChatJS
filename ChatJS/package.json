@@ -1,0 +1,33 @@
+{
+  "name": "SocketNodeJS",
+  "version": "0.1.0",
+  "description": "SocketNodeJS",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified! Configure in package.json\" && exit 1"
+  },
+  "dependencies" : {
+	"express" : "3.3.x",
+	"jade" : "*",
+	"socket.io" : "*",
+	"stylus" : "*",
+	"mongoose" : "3.6.x",
+	"body-parser" : "*",
+	"log4js" : "*",
+	"cookie-parser" : "*",
+	"cookie-session" : "*",
+	"body-parser" : "*",
+	"express-session" : "*",
+	"client-sessions" : "*",
+	"socket.io.users" : "2.0.2"
+  },
+  "repository": "",
+  "keywords": [
+    "node.js",
+    "eclipse",
+    "nodeclipse"
+  ],
+  "author": "Sergio",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>ChatJS</title>
+
+<!-- jQuery -->
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+<!-- Angular JS -->
+<script
+	src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+
+<!-- SocketIO -->
+<script src="/socket.io/socket.io.js"></script>
+
+<script src="/controllers/chatController.js"></script>
+
+<!-- Bootstrap -->
+<script src="js/bootstrap.min.js"></script>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+<!-- GoogleMaps -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDFf4r-hilM_TkdThetGpdTMmj-2boBXBM" async defer></script>
+
+</head>
+<body>
+	<section class="container" ng-app='app'
+		ng-controller='MainController as main'>
+
+		<div align="center">
+			<h1>Chat de {{user}}</h1>
+			<input type="button" class="btn btn-primary"
+				value="Nuevo Chat" style="width: 200px; float: left; margin-left: 10px; margin-bottom: 10px" ng-click="shownuevoDestinatario = ! shownuevoDestinatario; showNuevoDestinatario(); nuevoDestinatario = ''">
+			<input type="button" class="btn btn-danger"
+				value="Eliminar todo el historial" style="width: 200px; float: right; margin-right: 10px; margin-bottom: 10px" ng-click="deleteAllMessages()">
+		</div>
+
+		<hr align="center" width="100%">		
+		<div class="chatView">
+		
+			<!-- Lista de conversaciones -->
+			<div id="conversations" class="conversations">			
+				<ul class="list-group">
+					<li class="list-group-item" ng-repeat="usuario in convers" ng-click="getConversation(usuario); shownuevoDestinatario = ! shownuevoDestinatario">{{usuario}}</li>
+				</ul>
+			</div>
+			
+			<!-- Vista del Chat -->
+			<div class="conversationView">
+				<div class="chatConversation" id="chatConversation">
+					<div class="divNuevoDestinatario" ng-show="shownuevoDestinatario"> 
+						Para: <input class="nuevoDestinatario" type="text" id="nuevoDestinatario" autocomplete="off" ng-model="nuevoDestinatario" ng-change="searchUser()"> 						
+					</div>
+					<div id="messages" class="messages" ng-hide="shownuevoDestinatario">
+					</div>			
+					<hr align="center" width="100%">				
+					<div id="enviar" class="enviar" align="center">
+						<!-- Form NUEVO MENSAJE -->
+						<form ng-hide="shownuevoDestinatario" ng-submit="addMessage(this); scrollEnd()">
+							<input class="texto" type="text" id="texto" autocomplete="off" ng-model="texto">						
+							<input id="buttonEnviar" ng-disabled="validate()" type="button"
+								class="btn btn-primary" value="Enviar" ng-click="addMessage(this); scrollEnd()" style="width: 10%">
+						</form>	
+						<!-- Form NUEVA CONVERSACION -->
+						<form ng-show="shownuevoDestinatario" ng-submit="addNewConversation(nuevoDestinatario); shownuevoDestinatario = ! shownuevoDestinatario">
+							<select name="listaBusqueda" id="listaBusqueda" value="Destinatario:">    
+					       		<option value="{{busquedaUsuario}}" selected="selected" ng-repeat="busquedaUsuario in busquedaUsuarios">{{busquedaUsuario}}</option>
+  						 	</select>
+  						 	<br><br>
+							<input class="texto" type="text" id="textoNewConversation" autocomplete="off" ng-model="textoNewConversation">
+							<input id="buttonEnviar" type="button"
+								class="btn btn-primary" value="OK!" ng-click="addNewConversation(); shownuevoDestinatario = ! shownuevoDestinatario" style="width: 10%">
+						</form>
+					</div>
+				</div>
+				<div class="defaultChat" id="defaultChat" ng-hide="shownuevoDestinatario">
+					<img src="img/icono.ico" class="imgDefaultChat">
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
