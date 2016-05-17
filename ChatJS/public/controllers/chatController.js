@@ -133,7 +133,9 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 			if(!err){
 				console.log("ERROR: " + err);
 			}else{
+				console.log("USUARIO AL AÑADIR:" + user);
 				socket.emit('new-message', message, messages, user);
+				socket.emit('new-message', message, messages, destinatarioScope);
 				divMessages.scrollTop = divMessages.scrollHeight;
 			}
 		});

@@ -63,8 +63,7 @@ module.exports = function(app) {
 
 		var users = new Users({
 			user : req.body.user,
-			password : req.body.password,
-			convers: req.body.convers
+			password : req.body.password
 		});
 
 		users.save(function(err) {
