@@ -21,6 +21,8 @@
 <script src="js/bootstrap.min.js"></script>
 <link href="css/bootstrap.min.css" rel="stylesheet">
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
 <!-- GoogleMaps -->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDFf4r-hilM_TkdThetGpdTMmj-2boBXBM" async defer></script>
 
@@ -33,8 +35,25 @@
 			<h1>Chat de {{user}}</h1>
 			<input type="button" class="btn btn-primary"
 				value="Nuevo Chat" style="width: 200px; float: left; margin-left: 10px; margin-bottom: 10px" ng-click="shownuevoDestinatario = ! shownuevoDestinatario; showNuevoDestinatario(); nuevoDestinatario = ''">
-			<input type="button" class="btn btn-danger"
-				value="Eliminar todo el historial" style="width: 200px; float: right; margin-right: 10px; margin-bottom: 10px" ng-click="deleteAllMessages()">
+			<!--<input type="button" class="btn btn-danger"
+				value="Eliminar todo el historial"  ng-click="deleteAllMessages()">   -->
+				<a data-toggle="modal" href="#example" class="btn btn-danger" style="width: 200px; float: right; margin-right: 10px; margin-bottom: 10px">Eliminar historial</a>
+				
+				<div id="example" class="modal fade in" role="dialog" style="display: none;">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <button type="button" class="close" data-dismiss="modal">&times;</button>
+				        <h4 class="modal-title">¿Seguro que quieres eliminar el historial?</h4>
+				      </div>
+				      <div class="modal-body">
+				        <p>El historial de mensajes se eliminará para todos los usuarios participantes de esta conversación.</p>
+				      </div>
+				      <div class="modal-footer">
+				      	<input type="button" class="btn btn-danger" value="Eliminar todo el historial" data-dismiss="modal" ng-click="deleteAllMessages()">
+				        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				      </div>
+				    </div>
+				</div>
 		</div>
 
 		<hr align="center" width="100%">		

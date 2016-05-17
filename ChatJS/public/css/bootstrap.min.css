@@ -3857,7 +3857,7 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
 }
 
 .fade.in {
-	opacity: 1
+	opacity: 1;
 }
 
 .collapse {
@@ -7401,12 +7401,10 @@ button.close {
 	-webkit-animation-name: animatetop;
 	-webkit-animation-duration: 0.3s;
 	animation-name: animatetop;
-	animation-duration: 0.3s;
+	animation-duration: 5s;
 	position: fixed;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
+	top: 30%;
+	left: 30%;
 	z-index: 1050;
 	display: none;
 	overflow: hidden;
