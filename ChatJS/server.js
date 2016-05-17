@@ -55,21 +55,14 @@ app.get('/hello', function(req, res) {
 io.on('connection', function(socket) {  
   console.log('Alguien se ha conectado con Sockets: ' + socket.id);
   logger.info("------------------- NEW CONNECTION FROM " + socket.id);
-  
-  messages = [];
-  
-  socket.emit('messages', messages);
 
-  socket.on('new-message', function(data) {
+  socket.on('new-message', function(data, messages, user) {  
     messages.push(data);
-
-    io.sockets.emit('messages', messages);
+    io.sockets.emit('messages'+user, messages);
   });
   
-  socket.on('load-conver', function(data){  
-	  messages = data;
-	  
-	  io.sockets.emit('messages', data);
+  socket.on('load-conver', function(data, user){  
+	  io.sockets.emit('messages'+user, data);
   });
   
 });

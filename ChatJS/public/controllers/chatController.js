@@ -20,14 +20,7 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 	});
 	*/
 	var conversaciones;
-	
-	var socket = io.connect('10.6.17.155', {
-		'forceNew' : true
-	});
-	
-	socket.on('messages', function(data) {
-		render(data);
-	})
+	var messages = [];
 	
 	var user;
 	
@@ -39,7 +32,7 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 		var tmparr = paramarr[i].split("=");
 		params[tmparr[0]] = tmparr[1];
 	}
-	if (params['user']) {
+	if (params['user']) { 
 		user = params['user'];
 		$scope.user = user;
 	} else {
@@ -63,6 +56,17 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 	//Vista Nuevo Chat
 	var listaBusqueda = document.getElementById("listaBusqueda");
 	listaBusqueda.style.display = "none";
+	
+	var socket = io.connect('10.6.17.155', {
+		'forceNew' : true
+	});
+	
+	socket.on('messages'+user, function(data) {
+		//Almacenamos los datos en local
+		messages = data;
+		
+		render(data);
+	});
 	
 	$http.get('/getDifferentConversations/' + user).success(function(response,err){
 		if(!err){
@@ -129,7 +133,7 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 			if(!err){
 				console.log("ERROR: " + err);
 			}else{
-				socket.emit('new-message', message);
+				socket.emit('new-message', message, messages, user);
 				divMessages.scrollTop = divMessages.scrollHeight;
 			}
 		});
@@ -161,7 +165,7 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 			if(!err){
 				console.log("ERROR: " + err);
 			}else{
-				socket.emit('new-message', message);
+				socket.emit('new-message', message, messages, user);
 				divMessages.scrollTop = divMessages.scrollHeight;
 			}
 		});
@@ -180,7 +184,7 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 				console.log("ERROR");
 			}else{
 				historial = response;
-				socket.emit('load-conver', historial);
+				socket.emit('load-conver', historial, user);
 				divMessages.scrollTop = divMessages.scrollHeight;
 				
 				//Visibilidad
@@ -257,7 +261,7 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 				console.log("ERROR");
 			}else{
 				historial = response;
-				socket.emit('load-conver', historial);
+				socket.emit('load-conver', historial, user);
 				divMessages.scrollTop = divMessages.scrollHeight;
 				
 				//Visibilidad

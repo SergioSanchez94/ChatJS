@@ -59,6 +59,9 @@
 					<div id="enviar" class="enviar" align="center">
 						<!-- Form NUEVO MENSAJE -->
 						<form ng-hide="shownuevoDestinatario" ng-submit="addMessage(this); scrollEnd()">
+							<!--
+							<input id="buttonEnviar" type="file"
+								class="btn btn-primary" value="Adj." ng-click="scrollEnd()" style="width: 10%">   -->
 							<input class="texto" type="text" id="texto" autocomplete="off" ng-model="texto">						
 							<input id="buttonEnviar" ng-disabled="validate()" type="button"
 								class="btn btn-primary" value="Enviar" ng-click="addMessage(this); scrollEnd()" style="width: 10%">
