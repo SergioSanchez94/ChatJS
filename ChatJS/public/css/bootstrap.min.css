@@ -8451,10 +8451,18 @@ to {
 	margin: 25%;
 }
 
-.img{
+.imgDestinatario{
+	float: left;
 	margin-bottom: 5px;
 	border-radius: 10px;
 	margin-left: 25px;
+}
+
+.imgMio{
+	float: right;
+	margin-bottom: 5px;
+	border-radius: 10px;
+	margin-right: 25px;
 }
 
 .imgDefaultChat {

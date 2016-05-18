@@ -99,8 +99,14 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 		//Div IMG
 		var iDiv = document.createElement('img');
 		iDiv.id = 'imagen';
-		iDiv.className = 'img';
-		iDiv.src = img;
+		
+		if(img[0]==user){
+			iDiv.className = 'imgMio';
+		}else{
+			iDiv.className = 'imgDestinatario';
+		}	
+		
+		iDiv.src = img[1];
 		iDiv.setAttribute('height', '50%');
 		iDiv.setAttribute('width', '50%');
 		document.getElementById('messages').appendChild(iDiv);
@@ -111,7 +117,7 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 		
 		divMessages.scrollTop = divMessages.scrollHeight;
 		
-		console.log("IMAGEN RENDERIZADA");
+		console.log("IMAGEN RENDERIZADA DE: " + img[0]);
 	}
 	
 	/*
@@ -355,25 +361,20 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 	}
 	
 	/**
-	 * TODO
+	 * 
 	 * Envío de archivos por socket
 	 */
 	$('#sendFile').on('change', function(e){
-	    //Get the first (and only one) file element
-	    //that is included in the original event
+
 	    var file = e.originalEvent.target.files[0],
 	        reader = new FileReader();
-	    //When the file has been read...
+
 	    reader.onload = function(evt){
-	        //Because of how the file was read,
-	        //evt.target.result contains the image in base64 format
-	        //Nothing special, just creates an img element
-	        //and appends it to the DOM so my UI shows
-	        //that I posted an image.
-	        //send the image via Socket.io
-	        socket.emit('send-image', evt.target.result, messages, user, destinatarioScope);
+	    	var array=[]
+	    	array.push(user);
+	    	array.push(evt.target.result)
+	        socket.emit('send-image', array, messages, user, destinatarioScope);
 	    };
-	    //And now, read the image and base64
 	    reader.readAsDataURL(file);  
 	});
 

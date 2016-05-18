@@ -66,13 +66,6 @@ io.on('connection', function(socket) {
   });
   
   socket.on('send-image', function(img, messages, user, destinatario){
-	  
-	  console.log("IMAGEN A ENVIAR: " + img);
-	  console.log("DE: " + user); 
-	  console.log("A: " + destinatario)
-	  //messages.push(img);
-	  
-	  //socket.broadcast.emit('user image', socket.nickname, msg);
 	  io.sockets.emit('renderImg'+user, img);
 	  io.sockets.emit('renderImg'+destinatario, img);
   });
