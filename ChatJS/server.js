@@ -68,7 +68,7 @@ io.on('connection', function(socket) {
   socket.on('send-image', function(img, messages, user, destinatario){
 	  
 	  console.log("IMAGEN A ENVIAR: " + img);
-	  console.log("A: " + user); 
+	  console.log("DE: " + user); 
 	  console.log("A: " + destinatario)
 	  //messages.push(img);
 	  

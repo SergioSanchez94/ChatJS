@@ -2,23 +2,6 @@ angular.module('app', []);
 
 angular.module('app').controller("MainController", function($scope, $window, $http) {
 	
-	/*
-	 * Obtiene el historial de mensajes de la BBDD
-	 */
-	/*
-	$http.get('/getMessages').success(function(response,err){
-		if(!err){
-			console.log("ERROR");
-		}else{
-			var mensajes = [];
-			mensajes = response;
-			for(var i = 0; i<mensajes.length; i++){
-				socket.emit('new-message', mensajes[i]);
-			}
-			socket.emit('load-conver',mensajes);
-		}
-	});
-	*/
 	var conversaciones;
 	var messages = [];
 	
@@ -112,8 +95,23 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 	}
 	
 	function renderImg(img){
-		console.log("Redenderizando..." + img);
-		return('<div class="MensajeMio"><img src="'+img+'"></div>');
+		
+		//Div IMG
+		var iDiv = document.createElement('img');
+		iDiv.id = 'imagen';
+		iDiv.className = 'img';
+		iDiv.src = img;
+		iDiv.setAttribute('height', '50%');
+		iDiv.setAttribute('width', '50%');
+		document.getElementById('messages').appendChild(iDiv);
+		
+		//Salto de linea
+		var br = document.createElement('br');	
+		document.getElementById('messages').appendChild(br);
+		
+		divMessages.scrollTop = divMessages.scrollHeight;
+		
+		console.log("IMAGEN RENDERIZADA");
 	}
 	
 	/*
@@ -150,63 +148,95 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 		return false;
 	}
 	
-	$scope.addNewConversation = function() {
-
-		var form = document.getElementById("listaBusqueda");
-		var destinatarioForm = form.options[form.selectedIndex].value;
+	/**
+	 * Valida el Formulario para crear una nueva conversación
+	 */
+	$scope.validateFormNewConversation = function() {
+		var retorno = true;
 		
-		var fecha = new Date();
-	
-		var dia = fecha.getDay();
-		var horas = fecha.getHours() + ":" + fecha.getMinutes();
-		
-		var message = {
-			author : user,
-			text : document.getElementById('textoNewConversation').value,
-			dia : dia,
-			horas : horas,
-			destinatario : destinatarioForm
-		};
-		
-		$http.post('/addMessage', message).success(function(response,err){
-			if(!err){
-				console.log("ERROR: " + err);
-			}else{
-				socket.emit('new-message', message, messages, user);
-				divMessages.scrollTop = divMessages.scrollHeight;
-			}
-		});
-		
-		$http.get('/getDifferentConversations/' + user).success(function(response,err){
-			if(!err){
-				console.log("ERROR");
-			}else{
-				conversaciones = response;
-				$scope.convers = conversaciones;
-			}
-		});
-		
-		$http.get('/getMessageByAuthorDestinatario/'+user+'/'+destinatarioForm).success(function(response,err){
-			if(!err){
-				console.log("ERROR");
-			}else{
-				historial = response;
-				socket.emit('load-conver', historial, user);
-				divMessages.scrollTop = divMessages.scrollHeight;
+		try{
+			
+			if(document.getElementById('textoNewConversation').value != "" && document.getElementById('textoNewConversation').value != null){
+				var form = document.getElementById("listaBusqueda");
+				var destinatarioForm = form.options[form.selectedIndex].value;
 				
-				//Visibilidad
-				defaultView.style.display = "none";
-				chatConversation.style.display = "block";
+				if(destinatarioForm != "" && destinatarioForm != null){
+					retorno = false;
+				}
 			}
-		});	
-
-		document.getElementById('textoNewConversation').value = "";
-		document.getElementById('nuevoDestinatario').value = "";
-		form.value = [];
 		
-		destinatarioScope = destinatarioForm;
+		}catch(e){
+			retorno = true;
+		}
+		return retorno;
+	}
+	
+	/**
+	 * Inicia una nueva conversacion
+	 */
+	$scope.addNewConversation = function() {
 		
-		return false;
+		try{
+			
+			var form = document.getElementById("listaBusqueda");
+			var destinatarioForm = form.options[form.selectedIndex].value;
+			
+			var fecha = new Date();
+		
+			var dia = fecha.getDay();
+			var horas = fecha.getHours() + ":" + fecha.getMinutes();
+			
+			var message = {
+				author : user,
+				text : document.getElementById('textoNewConversation').value,
+				dia : dia,
+				horas : horas,
+				destinatario : destinatarioForm
+			};
+			
+			$http.post('/addMessage', message).success(function(response,err){
+				if(!err){
+					console.log("ERROR: " + err);
+				}else{
+					socket.emit('new-message', message, messages, user);
+					divMessages.scrollTop = divMessages.scrollHeight;
+				}
+			});
+			
+			$http.get('/getDifferentConversations/' + user).success(function(response,err){
+				if(!err){
+					console.log("ERROR");
+				}else{
+					conversaciones = response;
+					$scope.convers = conversaciones;
+				}
+			});
+			
+			$http.get('/getMessageByAuthorDestinatario/'+user+'/'+destinatarioForm).success(function(response,err){
+				if(!err){
+					console.log("ERROR");
+				}else{
+					historial = response;
+					socket.emit('load-conver', historial, user);
+					divMessages.scrollTop = divMessages.scrollHeight;
+					
+					//Visibilidad
+					defaultView.style.display = "none";
+					chatConversation.style.display = "block";
+				}
+			});	
+	
+			document.getElementById('textoNewConversation').value = "";
+			document.getElementById('nuevoDestinatario').value = "";
+			form.value = [];
+			$scope.busquedaUsuarios = [];
+			listaBusqueda.style.display = "none";
+			
+			destinatarioScope = destinatarioForm;
+		
+		}catch(e){
+			console.log(e);
+		}
 	}
 	
 	/*
@@ -278,6 +308,9 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 		});	
 	}
 	
+	/**
+	 * Muestra la vista de conversaciones y bloquea la ventana por defecto
+	 */
 	$scope.showNuevoDestinatario = function() {
 		if(defaultView.style.display == "block"){
 			defaultView.style.display = "none";
@@ -285,27 +318,34 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 		}
 	}
 	
+	/**
+	 * Realiza una busqueda de usuarios.
+	 */
 	$scope.searchUser = function(user){
-		
 		try{
 			var busqueda = document.getElementById("nuevoDestinatario").value;
 			
-			 $http.get('/getUsers/'+busqueda).success(function(response,err){
-					if(!err){
-						console.log("ERROR");
-					}else{
-						console.log("GET - BUSQUEDA USERS CON: " + busqueda);
-						var usuarios = [];
-						for(var i = 0; i<response.length; i++){
-							if(response[i].user != $scope.user){
-								usuarios.push(response[i].user);
+			if(busqueda != "" && busqueda != null){
+			
+					$http.get('/getUsers/'+busqueda).success(function(response,err){
+						if(!err){
+							console.log("ERROR");
+						}else{
+							var usuarios = [];
+							for(var i = 0; i<response.length; i++){
+								if(response[i].user != $scope.user){
+									usuarios.push(response[i].user);
+								}	
 							}	
-						}	
-						$scope.busquedaUsuarios = usuarios;
-					}
-				});
-			 
-			 listaBusqueda.style.display = "block";
+							$scope.busquedaUsuarios = usuarios;
+						}
+					});
+				 
+				 listaBusqueda.style.display = "block";
+			}else{
+				$scope.busquedaUsuarios = [];
+				listaBusqueda.style.display = "none";
+			}
 			 
 		}catch(e){
 			$scope.busquedaUsuarios = [];
@@ -314,6 +354,10 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 		
 	}
 	
+	/**
+	 * TODO
+	 * Envío de archivos por socket
+	 */
 	$('#sendFile').on('change', function(e){
 	    //Get the first (and only one) file element
 	    //that is included in the original event

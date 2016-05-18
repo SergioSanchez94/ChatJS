@@ -62,19 +62,17 @@
 		<div class="chatView">
 		
 			<!-- Lista de conversaciones -->
-			<div class="animated rollIn">
-				<div id="conversations" class="conversations">			
-					<ul class="list-group">
-						<li class="list-group-item" ng-repeat="usuario in convers" ng-click="getConversation(usuario); shownuevoDestinatario = ! shownuevoDestinatario">{{usuario}}</li>
-					</ul>
-				</div>
+			<div id="conversations" class="conversations">			
+				<ul class="list-group">
+					<li class="list-group-item" ng-repeat="usuario in convers" ng-click="getConversation(usuario); shownuevoDestinatario = ! shownuevoDestinatario">{{usuario}}</li>
+				</ul>
 			</div>
 			
 			<!-- Vista del Chat -->
 			<div class="conversationView">
 				<div class="chatConversation" id="chatConversation">
 					<div class="divNuevoDestinatario" ng-show="shownuevoDestinatario"> 
-						Para: <input class="nuevoDestinatario" type="text" id="nuevoDestinatario" autocomplete="off" ng-model="nuevoDestinatario" ng-change="searchUser()"> 						
+						Búsqueda de usuarios: <input class="nuevoDestinatario" type="text" id="nuevoDestinatario" autocomplete="off" ng-model="nuevoDestinatario" ng-change="searchUser()"> 						
 					</div>
 					<div id="messages" class="messages" ng-hide="shownuevoDestinatario">
 					</div>			
@@ -82,27 +80,26 @@
 					<div id="enviar" class="enviar" align="center">
 						<!-- Form NUEVO MENSAJE -->
 						<form ng-hide="shownuevoDestinatario" ng-submit="addMessage(this); scrollEnd()">
-							<span class="file-input btn btn-primary btn-file">
-               				Adj&hellip; <input id="sendFile" type="file">
+							<span class="file-input btn btn-primary btn-file" style="margin-right: 10px;">
+               				Adjunto <input id="sendFile" type="file">
             				</span>
 							<input class="texto" type="text" id="texto" autocomplete="off" ng-model="texto">						
 							<input id="buttonEnviar" ng-disabled="validate()" type="button"
-								class="btn btn-primary" value="Enviar" ng-click="addMessage(this); scrollEnd()" style="width: 10%">
+								class="btn btn-primary" value="Enviar" ng-click="addMessage(this); scrollEnd()">
 						</form>	
 						<!-- Form NUEVA CONVERSACION -->
 						<form ng-show="shownuevoDestinatario" ng-submit="addNewConversation(nuevoDestinatario); shownuevoDestinatario = ! shownuevoDestinatario">
-							<select name="listaBusqueda" id="listaBusqueda" value="Destinatario:">    
+							<select name="listaBusqueda" id="listaBusqueda">    
 					       		<option value="{{busquedaUsuario}}" selected="selected" ng-repeat="busquedaUsuario in busquedaUsuarios">{{busquedaUsuario}}</option>
   						 	</select>
-  						 	<br><br>
 							<input class="texto" type="text" id="textoNewConversation" autocomplete="off" ng-model="textoNewConversation">
-							<input id="buttonEnviar" type="button"
+							<input id="buttonEnviar" type="button" ng-disabled="validateFormNewConversation()"
 								class="btn btn-primary" value="OK!" ng-click="addNewConversation(); shownuevoDestinatario = ! shownuevoDestinatario" style="width: 10%">
 						</form>
 					</div>
 				</div>
 				<div class="defaultChat" id="defaultChat" ng-hide="shownuevoDestinatario">
-					<div class="animated zoomIn"><img src="img/icono.ico" class="imgDefaultChat"></div>
+					<div class="animated bounceIn"><img src="img/icono.ico" class="imgDefaultChat"></div>
 				</div>
 			</div>
 		</div>

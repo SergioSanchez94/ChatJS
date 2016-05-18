@@ -8412,17 +8412,15 @@ to {
 }
 
 .conversations {
-	box-shadow: 5px 5px 5px #888888;
 	float: left;
-	width: 20%;
+	width: 30%;
 	height: 100%;
 }
 
 .conversationView {
 	float: right;
-	width: 60%;
+	width: 70%;
 	height: 100%;
-	box-shadow: 5px 5px 5px #888888;
 }
 
 .messages {
@@ -8451,6 +8449,12 @@ to {
 
 .defaultChat {
 	margin: 25%;
+}
+
+.img{
+	margin-bottom: 5px;
+	border-radius: 10px;
+	margin-left: 25px;
 }
 
 .imgDefaultChat {
