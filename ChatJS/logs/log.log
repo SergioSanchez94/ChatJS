@@ -4142,3 +4142,540 @@
 [2016-05-17 17:49:02.349] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
 [2016-05-17 17:49:07.820] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#KPY3yCcsQuTZXDVmAAAB
 [2016-05-17 17:49:09.822] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#Cr5ZkYh2w5fEngQiAAAC
+[2016-05-18 09:21:19.336] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#yZh7hX65RB0AeE5kAAAA
+[2016-05-18 09:21:19.348] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 09:21:34.614] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 09:21:35.921] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 09:21:49.209] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#92oxUEODUvMBpG0FAAAB
+[2016-05-18 09:21:49.224] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: pablo
+[2016-05-18 09:21:50.811] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: pablo&sergio
+[2016-05-18 09:21:51.253] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: pablo&edu
+[2016-05-18 09:21:51.695] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: pablo&sergio
+[2016-05-18 09:21:52.117] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: pablo&edu
+[2016-05-18 09:21:52.558] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: pablo&sergio
+[2016-05-18 09:21:53.077] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: pablo&edu
+[2016-05-18 09:26:46.065] [INFO] CHAT - POST /addMessage - OK | from sergio to pablo
+{ __v: 0,
+  author: 'sergio',
+  text: 'map',
+  dia: '3',
+  horas: '9:26',
+  destinatario: 'pablo',
+  _id: 573c19369816adc807000001 }
+[2016-05-18 09:29:47.566] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#mhUHRGCKDPU0NU9WAAAC
+[2016-05-18 09:29:47.584] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 09:29:48.830] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 09:29:51.463] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 09:30:48.033] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#pezVGzy2GPD-qYiKAAAD
+[2016-05-18 09:30:48.050] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 09:30:49.519] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 09:30:50.951] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 09:30:51.537] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 09:30:52.488] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 09:30:55.155] [INFO] CHAT - POST /addMessage - OK | from sergio to pablo
+{ __v: 0,
+  author: 'sergio',
+  text: 'map',
+  dia: '3',
+  horas: '9:30',
+  destinatario: 'pablo',
+  _id: 573c1a2f9816adc807000002 }
+[2016-05-18 09:32:01.700] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#pA5iiuk4aeqE3J0dAAAE
+[2016-05-18 09:32:01.723] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 09:32:02.927] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 09:32:04.126] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 09:32:12.056] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 09:32:13.829] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 09:32:14.582] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 09:32:15.095] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 09:38:08.397] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#vYzLQ_hpgqrLqt2xAAAA
+[2016-05-18 09:40:23.140] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#r6UM5RuEXgQtu9JKAAAA
+[2016-05-18 09:41:01.038] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#M8yy0IJfke8SIz-TAAAB
+[2016-05-18 09:41:01.070] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 09:41:02.545] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 09:42:40.136] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#g_nbo6W84ZVZVbjwAAAA
+[2016-05-18 09:42:44.329] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#VH67LcNq7XGb7IT2AAAB
+[2016-05-18 09:42:44.353] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 09:42:45.714] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 09:42:50.401] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 09:42:51.279] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 09:42:51.898] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 09:42:52.357] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 09:46:59.183] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#jKtjVPoqtOJ0Wk_OAAAA
+[2016-05-18 09:47:01.883] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#GC-A17u-L8w9n7DHAAAB
+[2016-05-18 09:47:01.957] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 09:47:03.454] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 09:48:01.359] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#QmxxmrORhe2xKedPAAAA
+[2016-05-18 09:48:02.264] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#RwtehFdKV-GgkFnBAAAB
+[2016-05-18 09:48:02.287] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 09:48:03.204] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 09:48:44.774] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#kyFW22AKGrQ26Yj4AAAC
+[2016-05-18 09:48:44.792] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 09:48:45.724] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 09:49:11.366] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#5HG5SuqT6p0qCECFAAAD
+[2016-05-18 09:49:11.382] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 09:49:12.463] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 09:51:33.139] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#Di2GC864BooL52t5AAAA
+[2016-05-18 09:51:37.056] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#OOCxIbPEqt93veVPAAAB
+[2016-05-18 09:51:37.079] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 09:51:38.002] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 09:52:03.054] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 09:52:04.640] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 09:52:48.678] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#-EAG1aBYn5SWGoITAAAA
+[2016-05-18 09:52:51.068] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#uz2npOgro2AtD3kdAAAB
+[2016-05-18 09:52:51.107] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 09:53:04.903] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#0UFiYCAPsQYhKaL3AAAC
+[2016-05-18 09:53:04.919] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: pablo
+[2016-05-18 09:53:15.179] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: pablo&sergio
+[2016-05-18 09:53:20.827] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 09:55:02.448] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#COkzw3nmLnLRbDNkAAAA
+[2016-05-18 09:55:02.866] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#XbkZyjn3uWG-l4_KAAAB
+[2016-05-18 09:55:04.405] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#z06971_-2zCQ8rCDAAAC
+[2016-05-18 09:55:04.416] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 09:55:09.980] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 09:55:13.140] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#XDft5Uh9OR8s_UwwAAAD
+[2016-05-18 09:55:13.162] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: pablo
+[2016-05-18 09:55:15.791] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: pablo&sergio
+[2016-05-18 09:56:01.086] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#-MHOQ6EzKrlKa3N2AAAA
+[2016-05-18 09:56:01.093] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#N-dAhdreZze4IPYsAAAB
+[2016-05-18 09:56:04.525] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#nzS0Avbz_trhAd_NAAAC
+[2016-05-18 09:56:04.556] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: pablo
+[2016-05-18 09:56:05.199] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#LiSTWAYlSZARhWXvAAAD
+[2016-05-18 09:56:05.221] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 09:56:06.383] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 09:56:07.972] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: pablo&sergio
+[2016-05-18 09:57:28.128] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#z2ZjPOm1UomW33ijAAAA
+[2016-05-18 09:57:31.872] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#oMDt1HOmOqZEzhKyAAAB
+[2016-05-18 09:57:31.906] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 09:57:33.173] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 10:00:35.312] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#o0lsK7iALqpkNSNhAAAC
+[2016-05-18 10:00:35.338] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 10:00:36.511] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 10:02:47.371] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#Q0617tkvWeSrVgG2AAAA
+[2016-05-18 10:02:50.452] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#0csovw-XQdk-IyE-AAAB
+[2016-05-18 10:02:50.482] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 10:02:52.130] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 10:05:14.488] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#WiPqbXpqoirnG_5eAAAA
+[2016-05-18 10:05:15.553] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#dwz1wpjYUS1W06_2AAAB
+[2016-05-18 10:05:15.589] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 10:05:17.071] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 10:05:56.661] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#5aVzuhjSxaWpXwcgAAAA
+[2016-05-18 10:05:57.844] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#MrIXrUIkm-YHdfagAAAB
+[2016-05-18 10:05:57.870] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 10:05:59.679] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 10:09:57.618] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#lNGQrQrMTWytxs3wAAAA
+[2016-05-18 10:10:01.485] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#TzrPZThSU8sQTP2nAAAB
+[2016-05-18 10:10:01.509] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 10:10:02.494] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 10:11:30.116] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#OcIWqmjRrBx19J6HAAAA
+[2016-05-18 10:11:32.214] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#bGrkH4prjw-RTPSYAAAB
+[2016-05-18 10:11:32.249] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 10:11:33.376] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 10:11:58.185] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#H0DodXxeA3vSvTYCAAAC
+[2016-05-18 10:11:58.230] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 10:11:59.330] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 10:14:53.189] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#1QHNqGKFeVjg5T3OAAAA
+[2016-05-18 10:14:54.199] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#s4dsMStmA4JM_6dHAAAB
+[2016-05-18 10:14:54.236] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 10:14:55.569] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 10:15:01.610] [INFO] CHAT - POST /addMessage - OK | from sergio to inma
+{ __v: 0,
+  author: 'sergio',
+  text: undefined,
+  dia: '3',
+  horas: '10:15',
+  destinatario: 'inma',
+  _id: 573c24851bef2fd814000001 }
+[2016-05-18 10:17:09.140] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#SEsPcDKLgBLWY5vhAAAC
+[2016-05-18 10:17:09.187] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 10:17:10.143] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 10:18:20.094] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 10:18:20.490] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 10:18:21.166] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 10:18:21.858] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 10:21:39.874] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#vTIUlsmi2M_KMMnCAAAA
+[2016-05-18 10:21:39.896] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 10:21:41.195] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 10:25:18.412] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#1wnkwf4A0N7wYK7OAAAA
+[2016-05-18 10:25:18.436] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 10:25:19.858] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 10:28:31.378] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#VIRntYs_G3nQGy9gAAAA
+[2016-05-18 10:28:31.406] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 10:28:33.095] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 10:30:06.814] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#F8UWnJqb5WWLl7oOAAAA
+[2016-05-18 10:30:08.940] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#eGFObawfuZyHi55lAAAB
+[2016-05-18 10:30:08.975] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 10:30:10.148] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 10:30:43.115] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#tg3xT3zKZRfyeAnEAAAA
+[2016-05-18 10:30:44.764] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#34Jk2q4y6sYqVDkxAAAB
+[2016-05-18 10:30:44.824] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 10:30:46.116] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 10:31:53.195] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#ApwbrC-T5CScNAj-AAAA
+[2016-05-18 10:32:15.336] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#EfU32rJDN8iauP-dAAAB
+[2016-05-18 10:32:15.340] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: inma
+[2016-05-18 10:32:16.407] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: inma&sergio
+[2016-05-18 10:34:45.305] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#ypRtOTsw1SLk5c6KAAAA
+[2016-05-18 10:34:45.320] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 10:34:49.697] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#A2oTjqEIpsuAyVy2AAAB
+[2016-05-18 10:34:49.713] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: pablo
+[2016-05-18 10:34:52.182] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 10:34:52.938] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: pablo&sergio
+[2016-05-18 10:37:53.211] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#Hc6HOzErM2gttwqQAAAA
+[2016-05-18 10:37:53.250] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 10:37:55.402] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#UMnrrMZb3mqXiUtCAAAB
+[2016-05-18 10:37:55.421] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: pablo
+[2016-05-18 10:37:57.564] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 10:38:21.758] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: pablo&sergio
+[2016-05-18 10:42:10.686] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#lVTZQhK-8XpdzBMHAAAA
+[2016-05-18 10:42:10.693] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#UQzNkOEWhOJnLVjbAAAB
+[2016-05-18 10:42:14.204] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#ZQqJ0brlu_ug-GTKAAAC
+[2016-05-18 10:42:14.236] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 10:42:16.912] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#afuQNmi1ax2uwG2vAAAD
+[2016-05-18 10:42:16.925] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: pablo
+[2016-05-18 10:42:22.240] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 10:42:23.251] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: pablo&sergio
+[2016-05-18 10:45:20.892] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 10:45:22.627] [INFO] CHAT - DELETE /deleteAllMessages - OK
+[2016-05-18 10:45:22.629] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 10:45:23.728] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 10:49:11.055] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#ApuunSZqRcejFQtcAAAE
+[2016-05-18 10:49:11.072] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 10:49:12.314] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 10:49:21.381] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#xOkVuPjs1InP7H8kAAAF
+[2016-05-18 10:49:21.396] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 10:49:22.138] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 10:50:28.042] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#xR1voFtYKxitNSHmAAAG
+[2016-05-18 10:50:28.058] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 10:50:28.658] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 10:51:19.455] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#EEJb9hxiMPX9bX3pAAAH
+[2016-05-18 10:51:19.471] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 10:51:20.484] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 10:52:14.635] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#x9qJKXj0xriYPVNuAAAI
+[2016-05-18 10:52:14.651] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 10:52:15.594] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 10:52:51.596] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#4FGxdFblFjHogshxAAAJ
+[2016-05-18 10:52:51.611] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 10:52:52.797] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 10:53:02.181] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#YvBZ4ifyrISQupWfAAAK
+[2016-05-18 10:53:02.196] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 10:53:02.743] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 10:53:24.331] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#oq_oxmSN1vH9lQlZAAAL
+[2016-05-18 10:53:24.345] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 10:53:25.981] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 10:54:20.308] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#xzXjaGZwLfX5t09-AAAM
+[2016-05-18 10:54:20.327] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 10:54:21.450] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 11:31:57.704] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 11:32:04.250] [INFO] CHAT - POST /addMessage - OK | from sergio to inma
+{ __v: 0,
+  author: 'sergio',
+  text: 'Hola',
+  dia: '3',
+  horas: '11:32',
+  destinatario: 'inma',
+  _id: 573c3694ab6de7880f000001 }
+[2016-05-18 11:32:04.252] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 11:32:04.254] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 11:32:06.109] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 11:32:06.553] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 11:32:06.925] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 11:32:36.748] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 11:32:37.765] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 11:32:38.939] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 11:32:39.358] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 11:32:43.094] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#em9l0DIJRXeebZbhAAAN
+[2016-05-18 11:32:43.109] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 11:32:48.731] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 11:32:49.140] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 11:35:22.433] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#FzBq8LQJQej8_frRAAAO
+[2016-05-18 11:35:22.453] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 11:35:23.644] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 11:36:37.666] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#OwnyOXWlQ7SBiSmXAAAP
+[2016-05-18 11:36:37.684] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 11:36:38.929] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 11:38:25.418] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#NLit-GvHqonMTziGAAAQ
+[2016-05-18 11:38:25.436] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 11:38:26.366] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 11:38:38.019] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#pW7YLUO9ZKPh_DIDAAAR
+[2016-05-18 11:38:38.037] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 11:38:38.964] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 11:40:52.482] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#CGUxXP06X4mzctZgAAAS
+[2016-05-18 11:40:52.502] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 11:40:53.269] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 11:40:54.513] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 11:40:56.265] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 11:40:56.634] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 11:40:58.089] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 11:40:58.492] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 11:41:42.428] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#RWV-xo5XkTiTYNQ-AAAT
+[2016-05-18 11:41:42.446] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 11:41:43.547] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 11:41:44.056] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 11:41:44.516] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 11:42:13.539] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#4ZYTVKZJx3dO9UYxAAAU
+[2016-05-18 11:42:13.556] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 11:42:14.976] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 11:42:15.740] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 11:42:16.701] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 11:42:22.411] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 11:42:22.724] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 11:42:25.261] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 11:42:25.634] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 11:42:26.876] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 11:46:29.421] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#egra1w7xv4TP9RIrAAAV
+[2016-05-18 11:46:29.438] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 11:46:30.449] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 11:46:33.168] [INFO] CHAT - POST /addMessage - OK | from sergio to pablo
+{ __v: 0,
+  author: 'sergio',
+  text: 'e',
+  dia: '3',
+  horas: '11:46',
+  destinatario: 'pablo',
+  _id: 573c39f9ab6de7880f000002 }
+[2016-05-18 11:48:48.848] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#0LtRCx9jSGRk_0lfAAAW
+[2016-05-18 11:48:48.864] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 11:48:50.118] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 11:48:50.774] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 11:52:54.608] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#iklaypoRjqUGyPH1AAAX
+[2016-05-18 11:52:54.623] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 11:52:56.034] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 11:54:07.365] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#xtxqwc-QIGUVJpeVAAAY
+[2016-05-18 11:54:07.369] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 11:54:08.271] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 11:54:10.108] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 11:54:11.790] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 11:54:14.412] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 11:54:14.685] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 11:54:16.988] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 11:54:17.470] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 11:54:18.020] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 11:54:18.405] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 11:54:33.993] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#mi3bV-o5KiBFr2sXAAAZ
+[2016-05-18 11:54:34.009] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 11:54:34.934] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 11:54:37.532] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 11:54:39.597] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 11:54:40.861] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 11:55:56.542] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#-u1qrBBQk6tMg_9iAAAa
+[2016-05-18 11:55:56.558] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 11:55:57.473] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 11:57:02.852] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#QIPGEgO4vBJI_vpfAAAb
+[2016-05-18 11:57:02.867] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 11:57:03.740] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 11:57:05.218] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 11:57:05.594] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 11:57:06.227] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 11:57:26.871] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#wSBh8QJpgls3Si_9AAAc
+[2016-05-18 11:57:26.886] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 11:57:27.724] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 11:57:29.730] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 11:57:30.179] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 11:58:31.401] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#yHfVy5BXpgf20NI-AAAd
+[2016-05-18 11:58:31.419] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 11:58:32.374] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 11:58:33.797] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 11:58:34.198] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 11:58:38.806] [INFO] CHAT - POST /addMessage - OK | from sergio to pablo
+{ __v: 0,
+  author: 'sergio',
+  text: 'we',
+  dia: '3',
+  horas: '11:58',
+  destinatario: 'pablo',
+  _id: 573c3cceab6de7880f000003 }
+[2016-05-18 11:59:39.383] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#KmW0cTw5P6TgcxmbAAAe
+[2016-05-18 11:59:39.400] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 12:00:19.409] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#1-PtlNJC-Bk0CnqYAAAf
+[2016-05-18 12:00:19.436] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 12:00:24.306] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#ReNeTqw6BiC5rUEcAAAg
+[2016-05-18 12:00:24.322] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 12:02:25.474] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#hDZz0wv9s7PN-2AHAAAh
+[2016-05-18 12:02:25.494] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 12:02:39.785] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#JUUnf4JyxPebL-jrAAAi
+[2016-05-18 12:02:39.800] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 12:02:44.295] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#bxfxRtoiQlsmHB2EAAAj
+[2016-05-18 12:02:44.332] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 12:03:20.764] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#Uk2Ls8CPbfIGkzZ4AAAk
+[2016-05-18 12:03:20.778] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 12:03:59.737] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#lYCmznJJtKjF_l6zAAAl
+[2016-05-18 12:03:59.753] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 12:04:16.569] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#o59u8qKLrW0St4qwAAAm
+[2016-05-18 12:04:16.585] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 12:05:31.498] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#SH6NZfZgxIzwhRErAAAn
+[2016-05-18 12:05:31.514] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 12:05:37.143] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#Q6OvVHXpB-cXFmMhAAAo
+[2016-05-18 12:05:37.163] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 12:05:40.112] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 12:05:40.973] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 12:05:41.816] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 12:05:42.485] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 12:05:43.331] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 12:05:47.796] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#yHCd_FSItrRiFwtPAAAp
+[2016-05-18 12:05:47.810] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 12:06:33.850] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#wMiFAGULTN-GjciNAAAq
+[2016-05-18 12:06:33.866] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 12:07:14.338] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#qu8r2CY-HAXnbqWaAAAr
+[2016-05-18 12:07:14.354] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 12:07:17.858] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#hNb03uPCGCxJVEy9AAAs
+[2016-05-18 12:07:17.877] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 12:08:57.014] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#_xdqRmb6xIEoaArBAAAt
+[2016-05-18 12:08:57.030] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 12:11:11.585] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#MSQnPsd9NGXADfF_AAAu
+[2016-05-18 12:11:11.603] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 12:11:24.444] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#vGKfMN4ZypqqVDyMAAAv
+[2016-05-18 12:11:24.463] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 12:11:33.055] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 12:11:33.556] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 12:11:34.006] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 12:11:35.912] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#DQVvCrDys47SQdXrAAAw
+[2016-05-18 12:11:35.932] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 12:11:41.166] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 12:11:42.740] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 12:11:43.709] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 12:14:43.205] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 12:14:44.100] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 12:14:45.292] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 12:14:49.222] [INFO] CHAT - POST /addMessage - OK | from sergio to edu
+{ __v: 0,
+  author: 'sergio',
+  text: 'Hola',
+  dia: '3',
+  horas: '12:14',
+  destinatario: 'edu',
+  _id: 573c4099ab6de7880f000004 }
+[2016-05-18 12:14:49.224] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 12:14:49.225] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&edu
+[2016-05-18 12:14:51.773] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 12:14:52.158] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 12:14:52.821] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 12:14:53.148] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&edu
+[2016-05-18 12:14:56.172] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#_aXvVl8OmDCIcVuhAAAx
+[2016-05-18 12:14:56.188] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: edu
+[2016-05-18 12:14:58.397] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: edu&pablo
+[2016-05-18 12:15:00.309] [INFO] CHAT - DELETE /deleteAllMessages - OK
+[2016-05-18 12:15:00.309] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: edu
+[2016-05-18 12:15:01.331] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: edu&sergio
+[2016-05-18 12:15:02.980] [INFO] CHAT - DELETE /deleteAllMessages - OK
+[2016-05-18 12:15:02.981] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: edu
+[2016-05-18 12:15:12.592] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#d3Bm4nQRkRKgSSvWAAAy
+[2016-05-18 12:15:12.606] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: edu
+[2016-05-18 12:16:58.853] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#0UEQAI3jO3XbitHhAAAz
+[2016-05-18 12:16:58.872] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: edu
+[2016-05-18 12:17:02.526] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#2KHZZJJpxPiG5yWSAAA0
+[2016-05-18 12:17:02.542] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 12:17:50.509] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#1ym6kXuGTx-rl7kJAAA1
+[2016-05-18 12:17:50.512] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 12:18:06.891] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#3fX7ZtpAPHgYChmhAAA2
+[2016-05-18 12:18:06.906] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 12:18:21.146] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#Xenjycsp-fIpdouqAAA3
+[2016-05-18 12:18:21.148] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 12:19:47.787] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#0iF7fTLnHFiEMWR5AAA4
+[2016-05-18 12:19:47.803] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 12:19:55.038] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 12:20:08.265] [INFO] CHAT - POST /addMessage - OK | from sergio to pablo
+{ __v: 0,
+  author: 'sergio',
+  text: 'Que tal',
+  dia: '3',
+  horas: '12:20',
+  destinatario: 'pablo',
+  _id: 573c41d8ab6de7880f000005 }
+[2016-05-18 12:20:20.069] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#8dOakkMlnQ-e7gB0AAA5
+[2016-05-18 12:20:20.086] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: pablo
+[2016-05-18 12:20:21.780] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: pablo&sergio
+[2016-05-18 12:20:31.147] [INFO] CHAT - POST /addMessage - OK | from sergio to pablo
+{ __v: 0,
+  author: 'sergio',
+  text: 'Probando desde movil....',
+  dia: '3',
+  horas: '12:20',
+  destinatario: 'pablo',
+  _id: 573c41efab6de7880f000006 }
+[2016-05-18 12:20:42.594] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#kA52k-zQbgwNUjKyAAA6
+[2016-05-18 12:20:42.612] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 12:21:24.088] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#cEBrAVS_rtuaAwePAAA7
+[2016-05-18 12:21:24.103] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: pablo
+[2016-05-18 12:21:39.411] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#9-_MMVpKC4WCSlcZAAA8
+[2016-05-18 12:21:39.425] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: pablo
+[2016-05-18 12:21:43.601] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#X0-riem2ElORipzMAAA9
+[2016-05-18 12:21:43.612] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 12:22:52.248] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#Cbl_-r7QcwdVOOrDAAA-
+[2016-05-18 12:22:52.266] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: pablo
+[2016-05-18 12:22:55.826] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#P9Ioh-rlM5iXQCraAAA_
+[2016-05-18 12:22:55.827] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 12:22:58.222] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 12:24:05.894] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#ZtWc6j0YfG5qTuk6AABA
+[2016-05-18 12:24:05.908] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: pablo
+[2016-05-18 12:24:48.682] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#EBvI2RXDviAH8wzpAABB
+[2016-05-18 12:24:48.697] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: pablo
+[2016-05-18 12:25:44.474] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#4SHsfy_uRJ1o4GDEAABC
+[2016-05-18 12:25:44.489] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: pablo
+[2016-05-18 12:29:55.407] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#j8jI-JDwg_-LAladAABD
+[2016-05-18 12:29:55.485] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: edu
+[2016-05-18 12:30:08.206] [INFO] CHAT - POST /addMessage - OK | from edu to sergio
+{ __v: 0,
+  author: 'edu',
+  text: 'hiii',
+  dia: '3',
+  horas: '12:30',
+  destinatario: 'sergio',
+  _id: 573c4430ab6de7880f000007 }
+[2016-05-18 12:30:08.208] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: edu
+[2016-05-18 12:30:08.213] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: edu&sergio
+[2016-05-18 12:30:13.592] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#2-lcG8HTiHnFI_t6AABE
+[2016-05-18 12:30:15.989] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#WT6S46t5kRjjP-gRAABF
+[2016-05-18 12:30:16.009] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-18 12:30:17.685] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&edu
+[2016-05-18 12:30:22.876] [INFO] CHAT - POST /addMessage - OK | from sergio to edu
+{ __v: 0,
+  author: 'sergio',
+  text: 'Weee',
+  dia: '3',
+  horas: '12:30',
+  destinatario: 'edu',
+  _id: 573c443eab6de7880f000008 }
+[2016-05-18 12:30:32.215] [INFO] CHAT - POST /addMessage - OK | from sergio to edu
+{ __v: 0,
+  author: 'sergio',
+  text: 'We',
+  dia: '3',
+  horas: '12:30',
+  destinatario: 'edu',
+  _id: 573c4448ab6de7880f000009 }
+[2016-05-18 12:30:39.549] [INFO] CHAT - POST /addMessage - OK | from sergio to edu
+{ __v: 0,
+  author: 'sergio',
+  text: 'Eeeee',
+  dia: '3',
+  horas: '12:30',
+  destinatario: 'edu',
+  _id: 573c444fab6de7880f00000a }
+[2016-05-18 12:31:03.297] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#IMLpltGtpeF3tAHSAABG
+[2016-05-18 12:31:04.866] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 12:31:06.235] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 12:31:07.436] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 12:31:08.148] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 12:31:08.713] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&edu
+[2016-05-18 12:31:09.294] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-18 12:31:10.033] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-18 12:35:12.962] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#hReNfbjr1Gc9QRuRAABH
+[2016-05-18 12:35:12.978] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: pablo
+[2016-05-18 12:35:15.987] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#Dl2OgSwlgrLKFTvFAABI
+[2016-05-18 12:35:16.003] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: pablo
+[2016-05-18 12:35:18.199] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#SSefyTDwF3g07KH8AABJ
+[2016-05-18 12:35:18.206] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: pablo
+[2016-05-18 12:35:20.620] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: pablo&sergio
+[2016-05-18 12:35:26.668] [INFO] CHAT - POST /addMessage - OK | from pablo to sergio
+{ __v: 0,
+  author: 'pablo',
+  text: 'we',
+  dia: '3',
+  horas: '12:35',
+  destinatario: 'sergio',
+  _id: 573c456eab6de7880f00000b }
+[2016-05-18 12:35:26.670] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: pablo
+[2016-05-18 12:35:26.673] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: pablo&sergio
+[2016-05-18 12:35:31.268] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: pablo&sergio
+[2016-05-18 12:35:36.739] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#pWjkqVLbWOuqfhDcAABK
+[2016-05-18 12:35:36.742] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: pablo

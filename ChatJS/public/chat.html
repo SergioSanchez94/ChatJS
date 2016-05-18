@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>ChatJS</title>
 
 <!-- jQuery -->
@@ -20,6 +21,7 @@
 <!-- Bootstrap -->
 <script src="js/bootstrap.min.js"></script>
 <link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/animate.css" rel="stylesheet">
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 
@@ -34,10 +36,10 @@
 		<div align="center">
 			<h1>Chat de {{user}}</h1>
 			<input type="button" class="btn btn-primary"
-				value="Nuevo Chat" style="width: 200px; float: left; margin-left: 10px; margin-bottom: 10px" ng-click="shownuevoDestinatario = ! shownuevoDestinatario; showNuevoDestinatario(); nuevoDestinatario = ''">
+				value="Nuevo Chat" style="width: 20%; float: left; margin-left: 10px; margin-bottom: 10px" ng-click="shownuevoDestinatario = ! shownuevoDestinatario; showNuevoDestinatario(); nuevoDestinatario = ''">
 			<!--<input type="button" class="btn btn-danger"
 				value="Eliminar todo el historial"  ng-click="deleteAllMessages()">   -->
-				<a data-toggle="modal" href="#example" class="btn btn-danger" style="width: 200px; float: right; margin-right: 10px; margin-bottom: 10px">Eliminar historial</a>
+				<a data-toggle="modal" href="#example" class="btn btn-danger" style="width: 20%; float: right; margin-right: 10px; margin-bottom: 10px">Eliminar historial</a>
 				
 				<div id="example" class="modal fade in" role="dialog" style="display: none;">
 				    <div class="modal-content">
@@ -60,10 +62,12 @@
 		<div class="chatView">
 		
 			<!-- Lista de conversaciones -->
-			<div id="conversations" class="conversations">			
-				<ul class="list-group">
-					<li class="list-group-item" ng-repeat="usuario in convers" ng-click="getConversation(usuario); shownuevoDestinatario = ! shownuevoDestinatario">{{usuario}}</li>
-				</ul>
+			<div class="animated rollIn">
+				<div id="conversations" class="conversations">			
+					<ul class="list-group">
+						<li class="list-group-item" ng-repeat="usuario in convers" ng-click="getConversation(usuario); shownuevoDestinatario = ! shownuevoDestinatario">{{usuario}}</li>
+					</ul>
+				</div>
 			</div>
 			
 			<!-- Vista del Chat -->
@@ -78,9 +82,9 @@
 					<div id="enviar" class="enviar" align="center">
 						<!-- Form NUEVO MENSAJE -->
 						<form ng-hide="shownuevoDestinatario" ng-submit="addMessage(this); scrollEnd()">
-							<!--
-							<input id="buttonEnviar" type="file"
-								class="btn btn-primary" value="Adj." ng-click="scrollEnd()" style="width: 10%">   -->
+							<span class="file-input btn btn-primary btn-file">
+               				Adj&hellip; <input id="sendFile" type="file">
+            				</span>
 							<input class="texto" type="text" id="texto" autocomplete="off" ng-model="texto">						
 							<input id="buttonEnviar" ng-disabled="validate()" type="button"
 								class="btn btn-primary" value="Enviar" ng-click="addMessage(this); scrollEnd()" style="width: 10%">
@@ -98,7 +102,7 @@
 					</div>
 				</div>
 				<div class="defaultChat" id="defaultChat" ng-hide="shownuevoDestinatario">
-					<img src="img/icono.ico" class="imgDefaultChat">
+					<div class="animated zoomIn"><img src="img/icono.ico" class="imgDefaultChat"></div>
 				</div>
 			</div>
 		</div>

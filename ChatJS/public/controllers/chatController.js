@@ -68,6 +68,10 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 		render(data);
 	});
 	
+	socket.on('renderImg'+user, function(img) {	
+		renderImg(img);
+	});
+	
 	$http.get('/getDifferentConversations/' + user).success(function(response,err){
 		if(!err){
 			console.log("ERROR");
@@ -91,24 +95,25 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 								+ '</strong>:         ' + elem.text
 								+ '      <br><fechaMensaje class="fechaMensaje">'
 								+ elem.horas + '</fechaMensaje></div><br/><br/>');
-					}else{
+					}else if(elem.author == user){
 						//Mensaje Mio
-						if(elem.text == "map"){
-							return ('<div id="map"></div>');
-						}else{
-							return ('<div class="MensajeMio"><strong>      ' + elem.author
-									+ '</strong>:         ' + elem.text
-									+ '      <br><fechaMensaje class="fechaMensaje">'
-									+ elem.horas + '</fechaMensaje></div><br/><br/>');
-						}
-					}
-					
+						return ('<div class="MensajeMio"><strong>      ' + elem.author
+								+ '</strong>:         ' + elem.text
+								+ '      <br><fechaMensaje class="fechaMensaje">'
+								+ elem.horas + '</fechaMensaje></div><br/><br/>');
+					}	
 	
 				}).join("");
 		
 		document.getElementById('messages').innerHTML = html;
 		document.getElementById("texto").focus();
-		divMessages.scrollTop = divMessages.scrollHeight;
+		divMessages.scrollTop = divMessages.scrollHeight;	
+		
+	}
+	
+	function renderImg(img){
+		console.log("Redenderizando..." + img);
+		return('<div class="MensajeMio"><img src="'+img+'"></div>');
 	}
 	
 	/*
@@ -308,4 +313,24 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 		}
 		
 	}
+	
+	$('#sendFile').on('change', function(e){
+	    //Get the first (and only one) file element
+	    //that is included in the original event
+	    var file = e.originalEvent.target.files[0],
+	        reader = new FileReader();
+	    //When the file has been read...
+	    reader.onload = function(evt){
+	        //Because of how the file was read,
+	        //evt.target.result contains the image in base64 format
+	        //Nothing special, just creates an img element
+	        //and appends it to the DOM so my UI shows
+	        //that I posted an image.
+	        //send the image via Socket.io
+	        socket.emit('send-image', evt.target.result, messages, user, destinatarioScope);
+	    };
+	    //And now, read the image and base64
+	    reader.readAsDataURL(file);  
+	});
+
 });
