@@ -17,6 +17,7 @@ module.exports = function(app) {
 		var message = new Message({
 			  author: req.body.author,
 			  text: req.body.text,
+			  tipo: req.body.tipo,
 			  dia : req.body.dia,
 			  horas : req.body.horas,
 			  destinatario : req.body.destinatario

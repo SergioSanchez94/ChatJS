@@ -73,6 +73,10 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 	    	renderTxt(file,"powerpoint");
 	    }
 	    
+	    if(nombreArchivo.indexOf(".pdf") > -1){
+	    	renderTxt(file,"pdf");
+	    }
+	    
 	});
 	
 	$http.get('/getDifferentConversations/' + user).success(function(response,err){
@@ -92,20 +96,21 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 		var html = data.map(
 				function(elem, index) {
 					
-					if(elem.author != user){
-						//Mensaje del destinatario
-						return ('<div class="MensajeDestinatario"><strong>      ' + elem.author
-								+ '</strong>:         ' + elem.text
-								+ '      <br><fechaMensaje class="fechaMensaje">'
-								+ elem.horas + '</fechaMensaje></div><br/><br/>');
-					}else if(elem.author == user){
-						//Mensaje Mio
-						return ('<div class="MensajeMio"><strong>      ' + elem.author
-								+ '</strong>:         ' + elem.text
-								+ '      <br><fechaMensaje class="fechaMensaje">'
-								+ elem.horas + '</fechaMensaje></div><br/><br/>');
-					}	
-	
+					if(elem.tipo == "text"){
+						if(elem.author != user){
+							//Mensaje del destinatario
+							return ('<div class="MensajeDestinatario"><strong>      ' + elem.author
+									+ '</strong>:         ' + elem.text
+									+ '      <br><fechaMensaje class="fechaMensaje">'
+									+ elem.horas + '</fechaMensaje></div><br/><br/>');
+						}else if(elem.author == user){
+							//Mensaje Mio
+							return ('<div class="MensajeMio"><strong>      ' + elem.author
+									+ '</strong>:         ' + elem.text
+									+ '      <br><fechaMensaje class="fechaMensaje">'
+									+ elem.horas + '</fechaMensaje></div><br/><br/>');
+						}
+					}
 				}).join("");
 		
 		document.getElementById('messages').innerHTML = html;
@@ -148,7 +153,7 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 		iDiv.setAttribute('width', '17%');
 		
 		//Animaciones jQuery
-		var $new = $(campo).hide().fadeIn(500);
+		var $new = $(campo).hide().fadeIn(200);
 		var $iDiv = $(iDiv);
 		
 		$('#messages').append($new);
@@ -178,7 +183,7 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 		iDiv.setAttribute('width', '50%');
 		
 		//Animaciones jQuery
-		var $iDiv = $(iDiv).hide().fadeIn(500);
+		var $iDiv = $(iDiv).hide().fadeIn(200);
 		
 		$('#messages').append($iDiv);
 		
@@ -202,6 +207,7 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 		var message = {
 			author : user,
 			text : document.getElementById('texto').value,
+			tipo: "text",
 			dia : dia,
 			horas : horas,
 			destinatario : destinatarioScope
@@ -264,6 +270,7 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 			var message = {
 				author : user,
 				text : document.getElementById('textoNewConversation').value,
+				tipo: "text",
 				dia : dia,
 				horas : horas,
 				destinatario : destinatarioForm
@@ -381,7 +388,8 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 				chatConversation.style.display = "block";
 				
 				//Animacion
-				$('#messages').hide().fadeIn(500);
+				$('#messages').hide().fadeIn(200);
+
 			}
 		});	
 	}
@@ -440,15 +448,16 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 
 	    var file = e.originalEvent.target.files[0],
 	        reader = new FileReader();
+	    
+	    var array=[];
 
 	    reader.onload = function(evt){
-	    	var array=[]
 	    	array.push(user);
 	    	array.push(evt.target.result);
 	    	array.push(file.name);
 	        socket.emit('send-image', array, messages, user, destinatarioScope);
 	    };
-	    reader.readAsDataURL(file);  
+	    reader.readAsDataURL(file);
 	});
 	
 	function textoAleatotio()

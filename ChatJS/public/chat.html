@@ -34,28 +34,35 @@
 		ng-controller='MainController as main'>
 
 		<div align="center">
-			<h1>Chat de {{user}}</h1>
-			<input type="button" class="btn btn-primary"
-				value="Nuevo Chat" style="width: 20%; float: left; margin-left: 10px; margin-bottom: 10px" ng-click="shownuevoDestinatario = ! shownuevoDestinatario; showNuevoDestinatario(); nuevoDestinatario = ''">
-			<!--<input type="button" class="btn btn-danger"
-				value="Eliminar todo el historial"  ng-click="deleteAllMessages()">   -->
-				<a data-toggle="modal" href="#example" class="btn btn-danger" style="width: 20%; float: right; margin-right: 10px; margin-bottom: 10px">Eliminar historial</a>
-				
-				<div id="example" class="modal fade in" role="dialog" style="display: none;">
-				    <div class="modal-content">
-				      <div class="modal-header">
-				        <button type="button" class="close" data-dismiss="modal">&times;</button>
-				        <h4 class="modal-title">¿Seguro que quieres eliminar el historial?</h4>
-				      </div>
-				      <div class="modal-body">
-				        <p>El historial de mensajes se eliminará para todos los usuarios participantes de esta conversación.</p>
-				      </div>
-				      <div class="modal-footer">
-				      	<input type="button" class="btn btn-danger" value="Eliminar todo el historial" data-dismiss="modal" ng-click="deleteAllMessages()">
-				        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-				      </div>
-				    </div>
-				</div>
+			<h1>ChatJS</h1>
+			
+			<input type="button" class="btn btn-primary" value="Nuevo Chat" style="width: 9%; float: left; margin-right: 10px; margin-left: 10px; margin-bottom: 10px" ng-click="shownuevoDestinatario = ! shownuevoDestinatario; showNuevoDestinatario(); nuevoDestinatario = ''">	
+			<a class="btn btn-primary" style="width: 9%; float: left; margin-right: 10px; margin-bottom: 10px">Editar</a>
+			<a data-toggle="modal" href="#modalEliminarHistorial" class="btn btn-danger" style="width: 9%; float: left; margin-right: 10px; margin-bottom: 10px">Eliminar</a>
+			
+			 <div class="dropdown" style="width: 9%; float: right;">
+			    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">{{user}}
+			    <span class="caret"></span></button>
+			    <ul class="dropdown-menu">
+			      <li><a href="#">En desarollo...</a></li>
+			    </ul>
+			 </div>
+			
+			<div id="modalEliminarHistorial" class="modal fade in" role="dialog" style="display: none;">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal">&times;</button>
+			        <h4 class="modal-title">¿Seguro que quieres eliminar el historial?</h4>
+			      </div>
+			      <div class="modal-body">
+			        <p>El historial de mensajes se eliminará para todos los usuarios participantes de esta conversación.</p>
+			      </div>
+			      <div class="modal-footer">
+			      	<input type="button" class="btn btn-danger" value="Eliminar todo el historial" data-dismiss="modal" ng-click="deleteAllMessages()">
+			        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			      </div>
+			    </div>
+			</div>
 		</div>
 
 		<hr align="center" width="100%">		
@@ -63,7 +70,7 @@
 		
 			<!-- Lista de conversaciones -->
 			<div id="conversations" class="conversations">			
-				<ul class="list-group">
+				<ul class="list-group" style="width: 100%;">
 					<li class="list-group-item" ng-repeat="usuario in convers" ng-click="getConversation(usuario); shownuevoDestinatario = ! shownuevoDestinatario">{{usuario}}</li>
 				</ul>
 			</div>
