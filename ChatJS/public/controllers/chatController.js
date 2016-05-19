@@ -51,8 +51,28 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 		render(data);
 	});
 	
-	socket.on('renderImg'+user, function(img) {	
-		renderImg(img);
+	socket.on('renderImg'+user, function(file) {
+		
+		var nombreArchivo = file[2];
+	    
+	    //En caso de que sea .image
+	    if((nombreArchivo.indexOf(".png") > -1)||(nombreArchivo.indexOf(".jpg") > -1)||(nombreArchivo.indexOf(".ico") > -1)){
+	    	renderImg(file);
+	    }
+	    
+	    //En caso de que sea .text
+	    if(nombreArchivo.indexOf(".txt") > -1){
+	    	renderTxt(file,"txt");
+	    }
+	    
+	    if(nombreArchivo.indexOf(".docx") > -1){
+	    	renderTxt(file,"word");
+	    }
+	    
+	    if(nombreArchivo.indexOf(".pptx") > -1){
+	    	renderTxt(file,"powerpoint");
+	    }
+	    
 	});
 	
 	$http.get('/getDifferentConversations/' + user).success(function(response,err){
@@ -94,6 +114,53 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 		
 	}
 	
+	function renderTxt(file, extension){
+		
+		var idAleatorio = textoAleatotio();
+		
+		//Div Descarga
+		var campo = document.createElement('a');
+		
+		if(file[0]==user){
+			campo.setAttribute('class','imgMio');
+		}else{
+			campo.setAttribute('class','imgDestinatario');
+		}
+		campo.setAttribute('id',idAleatorio);
+		campo.setAttribute('download',file[2]);
+		campo.setAttribute('href',file[1]);
+		
+		//Div Imagen de Descarga
+		var iDiv = document.createElement('img');
+		iDiv.setAttribute('alt',file[2]);
+		iDiv.setAttribute('title',file[2]);
+		iDiv.id = 'file';
+		
+		if(file[0]==user){
+			iDiv.className = 'imgMio';
+		}else{
+			iDiv.className = 'imgDestinatario';
+		}	
+
+		iDiv.src = "/img/file.png";
+
+		iDiv.setAttribute('height', '25%');
+		iDiv.setAttribute('width', '17%');
+		
+		//Animaciones jQuery
+		var $new = $(campo).hide().fadeIn(500);
+		var $iDiv = $(iDiv);
+		
+		$('#messages').append($new);
+		$('#'+idAleatorio).append($iDiv);
+		
+		//Salto de linea
+		var br = document.createElement('br');	
+		document.getElementById('messages').appendChild(br);
+		
+		divMessages.scrollTop = divMessages.scrollHeight;
+	}
+	
 	function renderImg(img){
 		
 		//Div IMG
@@ -109,15 +176,17 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 		iDiv.src = img[1];
 		iDiv.setAttribute('height', '50%');
 		iDiv.setAttribute('width', '50%');
-		document.getElementById('messages').appendChild(iDiv);
+		
+		//Animaciones jQuery
+		var $iDiv = $(iDiv).hide().fadeIn(500);
+		
+		$('#messages').append($iDiv);
 		
 		//Salto de linea
 		var br = document.createElement('br');	
 		document.getElementById('messages').appendChild(br);
 		
 		divMessages.scrollTop = divMessages.scrollHeight;
-		
-		console.log("IMAGEN RENDERIZADA DE: " + img[0]);
 	}
 	
 	/*
@@ -310,6 +379,9 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 				//Visibilidad
 				defaultView.style.display = "none";
 				chatConversation.style.display = "block";
+				
+				//Animacion
+				$('#messages').hide().fadeIn(500);
 			}
 		});	
 	}
@@ -372,10 +444,22 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 	    reader.onload = function(evt){
 	    	var array=[]
 	    	array.push(user);
-	    	array.push(evt.target.result)
+	    	array.push(evt.target.result);
+	    	array.push(file.name);
 	        socket.emit('send-image', array, messages, user, destinatarioScope);
 	    };
 	    reader.readAsDataURL(file);  
 	});
+	
+	function textoAleatotio()
+	{
+	    var text = "";
+	    var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+
+	    for( var i=0; i < 5; i++ )
+	        text += possible.charAt(Math.floor(Math.random() * possible.length));
+
+	    return text;
+	}
 
 });
