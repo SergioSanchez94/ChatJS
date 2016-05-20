@@ -1,7 +1,5 @@
 
-
-# SocketNodeJS
-
+# ChatJS
 
 
 ## Usage
@@ -9,7 +7,7 @@
 
 
 ## Developing
-
+Sergio Sanchez
 
 
 ### Tools
