@@ -8473,6 +8473,20 @@ to {
 	margin-right: 40%;
 }
 
+.mapMio{
+	float: right;
+	margin-bottom: 5px;
+	border-radius: 10px;
+	margin-right: 25px;
+}
+
+.mapDestinatario{
+	float: left;
+	margin-bottom: 5px;
+	border-radius: 10px;
+	margin-left: 25px;
+}
+
 .fileDivMio{
 	float: right;
 	border-radius: 10px;

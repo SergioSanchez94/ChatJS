@@ -10,6 +10,7 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 	var paramstr = window.location.search.substr(1);
 	var paramarr = paramstr.split("&");
 	var params = {};
+	var maps = [];
 	
 	for (var i = 0; i < paramarr.length; i++) {
 		var tmparr = paramarr[i].split("=");
@@ -49,6 +50,11 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 		messages = data;
 		
 		render(data);
+		
+		if(maps.length != 0){
+			renderMaps();
+		}
+		
 	});
 	
 	socket.on('renderImg'+user, function(file) {
@@ -103,20 +109,73 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 									+ '</strong>:         ' + elem.text
 									+ '      <br><fechaMensaje class="fechaMensaje">'
 									+ elem.horas + '</fechaMensaje></div><br/><br/>');
+
 						}else if(elem.author == user){
 							//Mensaje Mio
 							return ('<div class="MensajeMio"><strong>      ' + elem.author
 									+ '</strong>:         ' + elem.text
 									+ '      <br><fechaMensaje class="fechaMensaje">'
-									+ elem.horas + '</fechaMensaje></div><br/><br/>');
+									+ elem.horas + '</fechaMensaje></div></div><br/><br/>');
+						}
+					}
+					if(elem.tipo == "map"){
+						//Mapa
+						addMap(elem._id, elem.text);
+						
+						if(elem.author != user){
+							//Mapa Destinatario
+							return ('<div id="'+elem._id+'" class="mapDestinatario" style="height: 50%; width: 50%;"></div><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>');
+						}else{
+							//Mapa Mio
+							return ('<div id="'+elem._id+'" class="mapMio" style="height: 50%; width: 50%;"></div><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>');
 						}
 					}
 				}).join("");
 		
 		document.getElementById('messages').innerHTML = html;
 		document.getElementById("texto").focus();
-		divMessages.scrollTop = divMessages.scrollHeight;	
 		
+		divMessages.scrollTop = divMessages.scrollHeight;	
+	}
+	
+	function addMap(id, coord){
+		var map = [];
+		
+		map.push(id);
+		map.push(coord);
+		maps.push(map);
+	}
+	
+	function renderMaps(){
+		for(var i = 0; i < maps.length; i++){
+			
+			var map = maps[i];
+
+			var coords = map[1].split(",");
+			
+			var myLatLng = {lat : parseFloat(coords[0]), lng : parseFloat(coords[1])};
+			
+			var map = new google.maps.Map(document.getElementById(map[0]), {
+				center : myLatLng,
+				zoom : 15
+			});
+			
+			var image = {
+				    url: 'img/location_icon.png',
+				    size: new google.maps.Size(71, 71),
+				    origin: new google.maps.Point(0, 0),
+				    anchor: new google.maps.Point(17, 34),
+				    scaledSize: new google.maps.Size(50, 50)
+				  };
+			
+			var marker = new google.maps.Marker({
+			    position: myLatLng,
+			    map: map,
+			    icon: image,
+			    title: 'Aqui!',
+			    animation: google.maps.Animation.DROP
+			  });	
+		}
 	}
 	
 	function renderTxt(file, extension){
@@ -372,6 +431,7 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 	$scope.getConversation = function(destinatario){
 		
 		destinatarioScope = destinatario;
+		maps = [];
 		var author = user;
 		var historial;
 		

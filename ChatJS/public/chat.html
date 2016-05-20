@@ -26,9 +26,12 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 
 <!-- GoogleMaps -->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDFf4r-hilM_TkdThetGpdTMmj-2boBXBM" async defer></script>
+<script
+	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDFf4r-hilM_TkdThetGpdTMmj-2boBXBM"
+	async defer></script>
 
 </head>
+
 <body>
 	<section class="container" ng-app='app'
 		ng-controller='MainController as main'>
@@ -87,6 +90,7 @@
 					<div id="enviar" class="enviar" align="center">
 						<!-- Form NUEVO MENSAJE -->
 						<form ng-hide="shownuevoDestinatario" ng-submit="addMessage(this); scrollEnd()">
+							<img ng-click="" src="img/location_icon.png" class="imgLocation" style="width: 30px; height: 30px;">
 							<span class="file-input btn btn-primary btn-file" style="margin-right: 10px;">
                				Adjunto <input id="sendFile" type="file">
             				</span>
