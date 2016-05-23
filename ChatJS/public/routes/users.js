@@ -6,7 +6,7 @@ module.exports = function(app) {
 	//Modulos
 	var express = require('express');  
 	app.use(express.bodyParser());
-
+	
 	/*
 	 * Find User by ID
 	 */
@@ -44,7 +44,12 @@ module.exports = function(app) {
 			var pwd = req.params.pwd;
 			
 			Users.find({user: name, password: pwd},function(err, docs) {
-				res.json(docs);
+
+				if(err){
+					console.log("Fallo en el servicio inicio de sesión");
+				}else{
+					res.json(docs);
+				}
 			});	
 			
 		}catch(e){

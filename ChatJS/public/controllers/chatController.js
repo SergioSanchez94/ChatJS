@@ -16,6 +16,7 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 		var tmparr = paramarr[i].split("=");
 		params[tmparr[0]] = tmparr[1];
 	}
+	
 	if (params['user']) { 
 		user = params['user'];
 		$scope.user = user;
@@ -134,6 +135,45 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 						//Archivo
 						console.log("Archivo encontrado");
 					}
+					if(elem.tipo == "ocupacion"){
+						
+						var numero = parseInt(elem.text);
+
+						//VERDE
+						if(numero < 40){
+							if(elem.author != user){
+								//Ocupacion Destinatario
+								return ('<div class="OcupacionDestinatario"  style="background-color:#58FA58;><div class="ocupacionText">' +  elem.text
+										+ '%</div></div><br/><br/><br/><br/><br/>');
+							}else{
+								//Ocupacion Mio
+								return ('<div class="OcupacionMio" style="background-color:#58FA58;"><div class="ocupacionText">' + elem.text
+										+ '%</div></div></div><br/><br/><br/><br/>');
+							}
+						//NARANJA
+						}else if(numero > 40 && numero < 80){
+							if(elem.author != user){
+								//Ocupacion Destinatario
+								return ('<div class="OcupacionDestinatario"  style="background-color:#FE9A2E;><div class="ocupacionText">' +  elem.text
+										+ '%</div></div><br/><br/><br/><br/><br/>');
+							}else{
+								//Ocupacion Mio
+								return ('<div class="OcupacionMio" style="background-color:#FE9A2E;"><div class="ocupacionText">' + elem.text
+										+ '%</div></div></div><br/><br/><br/><br/>');
+							}
+						//ROJO
+						}else if(numero > 80){
+							if(elem.author != user){
+								//Ocupacion Destinatario
+								return ('<div class="OcupacionDestinatario"  style="background-color:#FF0000;><div class="ocupacionText">' +  elem.text
+										+ '%</div></div><br/><br/><br/><br/><br/>');
+							}else{
+								//Ocupacion Mio
+								return ('<div class="OcupacionMio" style="background-color:#FF0000;"><div class="ocupacionText">' + elem.text
+										+ '%</div></div></div><br/><br/><br/><br/>');
+							}
+						}
+					}
 				}).join("");
 		
 		document.getElementById('messages').innerHTML = html;
@@ -169,7 +209,7 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 			map.setOptions({styles: styled});
 			
 			var image = {
-				    url: 'img/location_icon.png',
+				    url: 'img/marker.png',
 				    size: new google.maps.Size(71, 71),
 				    origin: new google.maps.Point(0, 0),
 				    anchor: new google.maps.Point(17, 34),
@@ -548,5 +588,47 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 		    );
 		}
 	}
+	
+
+	$scope.getOcupacion = function(req, res){
+		var url = "https://sig.altran.es/a/ontrace/ontrace.graph.asp";
+		var xmlHttp = new XMLHttpRequest();
+		xmlHttp.open("GET", url, false);
+		xmlHttp.send();
+		var respuesta = xmlHttp.responseText.toString();
+		
+		var inicio = respuesta.indexOf("<b>") + 3;
+		var fin = respuesta.indexOf("%</b>");
+
+		var ocupacion = "";
+
+		for(var i = inicio; i<fin; i++){
+			ocupacion += respuesta.charAt(i);
+		}
+
+		var fecha = new Date();
+		
+		var dia = fecha.getDay();
+		var horas = fecha.getHours() + ":" + fecha.getMinutes();
+		
+		var message = {
+			author : user,
+			text : ocupacion,
+			tipo: "ocupacion",
+			dia : dia,
+			horas : horas,
+			destinatario : destinatarioScope
+		};
+		
+		$http.post('/addMessage', message).success(function(response,err){
+			if(!err){
+				console.log("ERROR: " + err);
+			}else{
+				socket.emit('new-message', message, messages, user);
+				socket.emit('new-message', message, messages, destinatarioScope);
+				divMessages.scrollTop = divMessages.scrollHeight;
+			}
+		});
+	};
 	
 });

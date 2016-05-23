@@ -15,6 +15,7 @@ var session = require('client-sessions');
 var log4js = require('log4js');
 var socketUsers = require('socket.io.users');
 var fs = require('fs');
+var session = require('express-session');
 
 //Cookies
 var cookieParser = require("cookie-parser");
@@ -39,8 +40,12 @@ if(err) {
 }
 });
 
+app.use(express.cookieParser('shhhh, very secret'));                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+app.use(express.session());     
+
 //Mensajes
 var messages = [];
+var sess;
 
 //Contenido estatico de la app
 app.use(express.static('public'));

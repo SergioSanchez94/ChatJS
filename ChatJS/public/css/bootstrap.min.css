@@ -8406,6 +8406,34 @@ to {
 	margin-left: 25px;
 }
 
+.OcupacionMio {
+	float: right;
+	width:120px;
+	color: #fff;
+	height:70px;
+	border-radius: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-right: 25px;
+}
+
+.OcupacionDestinatario {
+	float: left;
+	width:20%;
+	color: #fff;
+	height:20%;
+	border-radius: 10px;
+	color: black;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 25px;
+}
+
+.ocupacionText{
+	font-weight: bold;
+	font-size: 50px;
+}
+
 .chatView {
 	height: 100%;
 	width: 100%;
