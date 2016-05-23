@@ -143,8 +143,8 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 						if(numero < 40){
 							if(elem.author != user){
 								//Ocupacion Destinatario
-								return ('<div class="OcupacionDestinatario"  style="background-color:#58FA58;><div class="ocupacionText">' +  elem.text
-										+ '%</div></div><br/><br/><br/><br/><br/>');
+								return ('<div class="OcupacionDestinatario" style="background-color:#58FA58;"><div class="ocupacionText">' +  elem.text
+										+ '%</div></div><br/><br/><br/><br/>');
 							}else{
 								//Ocupacion Mio
 								return ('<div class="OcupacionMio" style="background-color:#58FA58;"><div class="ocupacionText">' + elem.text
@@ -154,8 +154,8 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 						}else if(numero > 40 && numero < 80){
 							if(elem.author != user){
 								//Ocupacion Destinatario
-								return ('<div class="OcupacionDestinatario"  style="background-color:#FE9A2E;><div class="ocupacionText">' +  elem.text
-										+ '%</div></div><br/><br/><br/><br/><br/>');
+								return ('<div class="OcupacionDestinatario"  style="background-color:#FE9A2E;"><div class="ocupacionText">' +  elem.text
+										+ '%</div></div><br/><br/><br/><br/>');
 							}else{
 								//Ocupacion Mio
 								return ('<div class="OcupacionMio" style="background-color:#FE9A2E;"><div class="ocupacionText">' + elem.text
@@ -165,8 +165,8 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 						}else if(numero > 80){
 							if(elem.author != user){
 								//Ocupacion Destinatario
-								return ('<div class="OcupacionDestinatario"  style="background-color:#FF0000;><div class="ocupacionText">' +  elem.text
-										+ '%</div></div><br/><br/><br/><br/><br/>');
+								return ('<div class="OcupacionDestinatario"  style="background-color:#FF0000;"><div class="ocupacionText">' +  elem.text
+										+ '%</div></div><br/><br/><br/><br/>');
 							}else{
 								//Ocupacion Mio
 								return ('<div class="OcupacionMio" style="background-color:#FF0000;"><div class="ocupacionText">' + elem.text
