@@ -20,7 +20,8 @@ module.exports = function(app) {
 			  tipo: req.body.tipo,
 			  dia : req.body.dia,
 			  horas : req.body.horas,
-			  destinatario : req.body.destinatario
+			  destinatario : req.body.destinatario,
+			  leido : req.body.leido
 		});
 
 		message.save(function(err) {
@@ -176,6 +177,38 @@ module.exports = function(app) {
 		}
 	};
 	
+	/*
+	 * MARCAR LEIDO
+	 */
+	setLeido = function(req, res){
+		try{
+			var author = req.params.author;
+			var destinatario = req.params.destinatario;
+
+			Message.findOneAndUpdate({
+				"$or": [{
+			        "author": author,
+			        "destinatario" : destinatario
+			    }, {
+			        "author": destinatario,
+			        "destinatario": author
+			    },
+			    [['_id','asc']],
+			    {$set: {leido: true}}]
+			},function(err, docs) {
+				if(err){
+					logger.error("POST /setLeido - " + err);
+				}else{
+					logger.info("POST /setLeido - OK | Conversation: " + author);
+				}	
+			});	
+			
+		}catch(e){
+			res.json(e);
+			logger.error("POST /setLeido - " + e);
+		}
+	}
+	
 	function comprobarConversaciones(conversaciones, comprobante){
 		
 		var retorno = false;
@@ -195,4 +228,5 @@ module.exports = function(app) {
 	app.delete('/deleteAllMessages/:author/:destinatario', deleteAllMessages);
 	app.get('/getMessageByAuthorDestinatario/:author/:destinatario', getMessageByAuthorDestinatario);
 	app.get('/getDifferentConversations/:author', getDifferentConversations);
+	app.post('/setLeido/:author/:destinatario', setLeido);
 }

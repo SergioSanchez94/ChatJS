@@ -61,13 +61,13 @@ io.on('connection', function(socket) {
   console.log('Alguien se ha conectado con Sockets: ' + socket.id);
   logger.info("------------------- NEW CONNECTION FROM " + socket.id);
 
-  socket.on('new-message', function(data, messages, user) {  
+  socket.on('new-message', function(data, messages, user) { 
     messages.push(data);
     io.sockets.emit('messages'+user, messages);
   });
   
   socket.on('load-conver', function(data, user){  
-	  io.sockets.emit('messages'+user, data);
+	  io.sockets.emit('loadConversation'+user, data);
   });
   
   socket.on('send-image', function(img, messages, user, destinatario){

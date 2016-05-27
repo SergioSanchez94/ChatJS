@@ -46,7 +46,23 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 		'forceNew' : true
 	});
 	
+	//Permiso de notificaciones
+	document.addEventListener('DOMContentLoaded', function () {
+	  if (Notification.permission !== "granted")
+	    Notification.requestPermission();
+	});
+	
+	socket.on('loadConversation'+user, function(data) {	
+		messages = data;
+		render(data);
+		
+		if(maps.length != 0){
+			renderMaps();
+		}	
+	});
+	
 	socket.on('messages'+user, function(data) {
+		
 		//Almacenamos los datos en local
 		messages = data;
 		
@@ -56,6 +72,56 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 			renderMaps();
 		}
 		
+		var ultimoMensaje = messages[messages.length-1];
+		console.log(ultimoMensaje);
+	
+		if(ultimoMensaje.destinatario == user){
+			//Permiso de notificaciones
+			document.addEventListener('DOMContentLoaded', function () {
+			  if (Notification.permission !== "granted")
+			    Notification.requestPermission();
+			});
+	
+			  if (!Notification) {
+			    alert('Las notificaciones están desactivadas.'); 
+			    return;
+			  }
+	
+			  if (Notification.permission !== "granted")
+			    Notification.requestPermission();
+			  else {
+				  
+				  var cabecera;
+				  var cuerpo;
+				  var imagen;
+				  
+				  if(ultimoMensaje.tipo == "text"){
+					  cabecera = capitalizeFirstLetter(ultimoMensaje.author) + ' dice:';
+					  cuerpo = ultimoMensaje.text;
+					  imagen = 'img/icono.ico'; 
+				  }else if(ultimoMensaje.tipo == "ocupacion"){
+					  cabecera = capitalizeFirstLetter(ultimoMensaje.author) + ' te ha enviado la ocupación';
+					  cuerpo = "Está a un " + ultimoMensaje.text + '%';
+					  imagen = 'img/coffee.png';
+				  }else if(ultimoMensaje.tipo == "file"){
+					  cuerpo = "Te ha enviado un archivo adjunto";
+				  }else if(ultimoMensaje.tipo == "ocupacion"){
+					  cuerpo = "Te ha enviado su ubicación.";
+				  }  
+				  
+			    var notification = new Notification(cabecera, {
+			      icon: imagen,
+			      body: cuerpo,
+			    });
+	
+			    notification.onclick = function () {
+			    	notification.close();
+			    	window.focus();  
+			    };
+			    
+			    setTimeout(function() { notification.close() }, 5000);
+			}
+		}
 	});
 	
 	socket.on('renderImg'+user, function(file) {
@@ -317,14 +383,14 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 			tipo: "text",
 			dia : dia,
 			horas : horas,
-			destinatario : destinatarioScope
+			destinatario : destinatarioScope,
+			leido: false
 		};
 		
 		$http.post('/addMessage', message).success(function(response,err){
 			if(!err){
 				console.log("ERROR: " + err);
 			}else{
-				console.log("USUARIO AL AÑADIR:" + user);
 				socket.emit('new-message', message, messages, user);
 				socket.emit('new-message', message, messages, destinatarioScope);
 				divMessages.scrollTop = divMessages.scrollHeight;
@@ -568,6 +634,9 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 	    reader.readAsDataURL(file);
 	});
 	
+	/*
+	 * Utilidad para crear IDs unicos para los elementos del formulario
+	 */
 	function textoAleatotio()
 	{
 	    var text = "";
@@ -579,7 +648,11 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 	    return text;
 	}
 	
+	/*
+	 * Envia la ubicación actual del dispositivo
+	 */
 	$scope.sendLocation = function(){
+		
 		if (navigator.geolocation) {
 		    navigator.geolocation.getCurrentPosition(function(position) {
 		        var text = position.coords.latitude + "," + position.coords.longitude;
@@ -589,46 +662,55 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 		}
 	}
 	
-
+	/*
+	 * Obtiene la ocupacion del servicio del comedor
+	 */
 	$scope.getOcupacion = function(req, res){
-		var url = "https://sig.altran.es/a/ontrace/ontrace.graph.asp";
-		var xmlHttp = new XMLHttpRequest();
-		xmlHttp.open("GET", url, false);
-		xmlHttp.send();
-		var respuesta = xmlHttp.responseText.toString();
 		
-		var inicio = respuesta.indexOf("<b>") + 3;
-		var fin = respuesta.indexOf("%</b>");
+		var ocupacion;
+		
+		$.getJSON("https://sig.altran.es/a/ontrace/ontrace.api.asp",
+		        function(data){
+				   if (data.status == "OK"){
+					 var sitios = data.placements;
+					 if (sitios.length > 0){
+						ocupacion = sitios[0].flow;
+						
+						if(ocupacion==""||ocupacion==null){
+							ocupacion = "0";
+						}
 
-		var ocupacion = "";
-
-		for(var i = inicio; i<fin; i++){
-			ocupacion += respuesta.charAt(i);
-		}
-
-		var fecha = new Date();
-		
-		var dia = fecha.getDay();
-		var horas = fecha.getHours() + ":" + fecha.getMinutes();
-		
-		var message = {
-			author : user,
-			text : ocupacion,
-			tipo: "ocupacion",
-			dia : dia,
-			horas : horas,
-			destinatario : destinatarioScope
-		};
-		
-		$http.post('/addMessage', message).success(function(response,err){
-			if(!err){
-				console.log("ERROR: " + err);
-			}else{
-				socket.emit('new-message', message, messages, user);
-				socket.emit('new-message', message, messages, destinatarioScope);
-				divMessages.scrollTop = divMessages.scrollHeight;
-			}
-		});
+						var fecha = new Date();
+						
+						var dia = fecha.getDay();
+						var horas = fecha.getHours() + ":" + fecha.getMinutes();
+						
+						var message = {
+							author : user,
+							text : ocupacion,
+							tipo: "ocupacion",
+							dia : dia,
+							horas : horas,
+							destinatario : destinatarioScope,
+							leido: false
+						};
+						
+						$http.post('/addMessage', message).success(function(response,err){
+							if(!err){
+								console.log("ERROR: " + err);
+							}else{
+								socket.emit('new-message', message, messages, user);
+								socket.emit('new-message', message, messages, destinatarioScope);
+								divMessages.scrollTop = divMessages.scrollHeight;
+							}
+						});
+					 }
+				   }
+		        });		
 	};
+	
+	function capitalizeFirstLetter(string) {
+	    return string.charAt(0).toUpperCase() + string.slice(1);
+	}
 	
 });
