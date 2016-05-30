@@ -42,7 +42,7 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 	var listaBusqueda = document.getElementById("listaBusqueda");
 	listaBusqueda.style.display = "none";
 	
-	var socket = io.connect('10.6.17.155', {
+	var socket = io.connect('10.6.17.75', {
 		'forceNew' : true
 	});
 	
@@ -200,6 +200,18 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 					if(elem.tipo == "file"){
 						//Archivo
 						console.log("Archivo encontrado");
+					}
+					if(elem.tipo == "weather"){
+						//Weather
+						var data = JSON.parse(elem.text);
+						
+						if(elem.author != user){
+							//Weather Destinatario
+							return ('<div id="'+elem._id+'" class="WeatherDestinatario"><div style="float: left;"><img src="img/weather/mostly cloudy day.ico" alt="Smiley face" height="42" width="42"></div><div style="float: right; padding-left: 10px;">'+ data.query.results.channel.location.city + ", " + data.query.results.channel.location.country + "</br>" + data.query.results.channel.item.condition.temp + ' °C</div></div><br/><br/><br/>');
+						}else{
+							//Weather Mio
+							return ('<div id="'+elem._id+'" class="WeatherMio"><div style="float: left;"><img src="img/weather/mostly cloudy day.ico" alt="Smiley face" height="42" width="42"></div><div style="float: right; padding-left: 10px;">'+ data.query.results.channel.location.city + ", " + data.query.results.channel.location.country + "</br>" + data.query.results.channel.item.condition.temp +' °C</div></div><br/><br/><br/>');
+						}
 					}
 					if(elem.tipo == "ocupacion"){
 						
@@ -711,6 +723,41 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 	
 	function capitalizeFirstLetter(string) {
 	    return string.charAt(0).toUpperCase() + string.slice(1);
+	}
+	
+	$scope.sendWeather = function() {
+		
+		var localizacion  = document.getElementById("textoWeather").value;
+		
+	    $.get('https://query.yahooapis.com/v1/public/yql?q=select * from weather.forecast ' +
+	          'where woeid in (select woeid from geo.places(1) where text="'+localizacion+'") and u="c" &format=json', function (data) {
+	        
+	    	var fecha = new Date();
+			
+			var dia = fecha.getDay();
+			var horas = fecha.getHours() + ":" + fecha.getMinutes();
+			
+			var message = {
+				author : user,
+				text : JSON.stringify(data),
+				tipo: "weather",
+				dia : dia,
+				horas : horas,
+				destinatario : destinatarioScope,
+				leido: false
+			};
+			
+			$http.post('/addMessage', message).success(function(response,err){
+				if(!err){
+					console.log("ERROR: " + err);
+				}else{
+					socket.emit('new-message', message, messages, user);
+					socket.emit('new-message', message, messages, destinatarioScope);
+					divMessages.scrollTop = divMessages.scrollHeight;
+				}
+			});
+			
+	    });
 	}
 	
 });

@@ -42,16 +42,36 @@
 			<input type="button" class="btn btn-primary" value="Nuevo Chat" style="width: 9%; float: left; margin-right: 10px; margin-left: 10px; margin-bottom: 10px" ng-click="shownuevoDestinatario = ! shownuevoDestinatario; showNuevoDestinatario(); nuevoDestinatario = ''">	
 			<a class="btn btn-primary" style="width: 9%; float: left; margin-right: 10px; margin-bottom: 10px">Editar</a>
 			<a data-toggle="modal" href="#modalEliminarHistorial" class="btn btn-danger" style="width: 9%; float: left; margin-right: 10px; margin-bottom: 10px">Eliminar</a>
-			
-			 <div class="dropdown" style="width: 9%; float: right;">
-			    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">{{user}}
+										
+			<div class="dropdown" style="width: 9%; float: right;">
+			    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Adjuntar...
 			    <span class="caret"></span></button>
 			    <ul class="dropdown-menu">
-			      <li><a href="#">En desarollo...</a></li>
+			      	<li><a href="#" ng-click="getOcupacion()">Ocupación</a></li>
+		     		<li><a href="#" ng-click="sendLocation()">Localización (beta)</a></li>
+		      		<li><a data-toggle="modal" href="#modalWeather"> Tiempo</a></li>
 			    </ul>
 			 </div>
 			 
-			 <input type="button" class="btn btn-primary" value="Ocupación" style="width: 9%; float: right; margin-right: 10px; margin-left: 10px; margin-bottom: 10px;" ng-click="getOcupacion()">	
+			 <div id="modalWeather" class="modal fade in" role="dialog" style="display: none;">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal">&times;</button>
+			        <h4 class="modal-title">Weather</h4>
+			      </div>
+			      <div class="modal-body">
+			        <p>¿Que información necesitas?</p>
+			        <input class="textoWeather" type="text" id="textoWeather" autocomplete="off" ng-model="textoWeather">
+			      </div>
+			      <div class="modal-footer">
+			      	<input type="button" class="btn btn-primary" value="Hoy" data-dismiss="modal" ng-click="sendWeather()">
+			      	<input type="button" class="btn btn-primary" value="Mañana" data-dismiss="modal">
+			      	<input type="button" class="btn btn-primary" value="Toda la semana" data-dismiss="modal">
+			        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			      </div>
+			    </div>
+			</div>
+							
 			
 			<div id="modalEliminarHistorial" class="modal fade in" role="dialog" style="display: none;">
 			    <div class="modal-content">
@@ -92,9 +112,8 @@
 					<div id="enviar" class="enviar" align="center">
 						<!-- Form NUEVO MENSAJE -->
 						<form ng-hide="shownuevoDestinatario" ng-submit="addMessage(this); scrollEnd()">
-							<img ng-click="sendLocation()" src="img/location_icon.png" class="imgLocation" style="width: 30px; height: 30px;">
 							<span class="file-input btn btn-primary btn-file" style="margin-right: 10px;">
-               				Adjunto <input id="sendFile" type="file">
+               				Archivo <input id="sendFile" type="file">
             				</span>
 							<input class="texto" type="text" id="texto" autocomplete="off" ng-model="texto">						
 							<input id="buttonEnviar" ng-disabled="validate()" type="button"

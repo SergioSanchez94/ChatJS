@@ -8419,13 +8419,33 @@ to {
 
 .OcupacionDestinatario {
 	float: left;
-	width:120px%;
+	width:120px;
 	color: #fff;
 	height:70px;
 	border-radius: 10px;
 	padding-left: 10px;
 	padding-right: 10px;
 	margin-left: 25px;
+}
+
+.WeatherMio {
+	float: right;
+	border-radius: 10px;
+	background-color: #0882FB;
+	color: #fff;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-right: 25px;
+}
+
+.WeatherDestinatario {
+	float: left;
+	border-radius: 10px;
+	background-color: #D8D8D8;
+	color: black;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-right: 25px;
 }
 
 .ocupacionText{

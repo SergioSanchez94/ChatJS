@@ -8451,3 +8451,677 @@
 [2016-05-27 14:01:12.553] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#gpp31-0Pm5g7riWrAAAA
 [2016-05-27 14:05:18.546] [INFO] CHAT - GET /getMessages - OK
 [2016-05-27 14:05:20.797] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#5JF3uxHCnxwCWns8AAAA
+[2016-05-30 10:02:47.437] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#WN4ja7PTRkkYdH0JAAAA
+[2016-05-30 10:02:47.478] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 10:02:50.844] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 10:05:44.034] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#fDemoJMDrJv_nw63AAAA
+[2016-05-30 10:06:44.619] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#MjfX2TMawmHrsxr-AAAA
+[2016-05-30 10:06:44.644] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 10:06:46.176] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 10:09:02.265] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#kiwtZykwIXIBmHbNAAAB
+[2016-05-30 10:09:02.290] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 10:09:03.299] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 10:13:03.632] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#kTHckDckYqfCBSMhAAAC
+[2016-05-30 10:13:03.658] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 10:13:05.105] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&edu
+[2016-05-30 10:17:27.754] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#cYtWrNpYu4YWlsEHAAAD
+[2016-05-30 10:17:27.777] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 10:17:28.556] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 10:18:26.932] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#GyAocjI9C-IgYpjXAAAE
+[2016-05-30 10:18:26.951] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 10:18:27.541] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 10:21:13.178] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#t9dxl6nwlXAjuDknAAAF
+[2016-05-30 10:21:13.198] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 10:21:14.400] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 10:22:12.152] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#EfPrp6b7zBVQzciDAAAG
+[2016-05-30 10:22:12.171] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 10:22:12.754] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&edu
+[2016-05-30 10:23:42.591] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#piicL2ezIdiSZAntAAAH
+[2016-05-30 10:23:42.628] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 10:23:46.600] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 10:23:53.651] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#yrNPglZEuTl72OJJAAAI
+[2016-05-30 10:23:53.669] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 10:23:54.325] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 10:24:44.847] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#apn_llWcCIFVidZEAAAJ
+[2016-05-30 10:24:44.884] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 10:24:54.795] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 10:26:43.591] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#jBZsUVqgUedKM-uRAAAK
+[2016-05-30 10:26:43.610] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 10:26:44.426] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-30 10:27:07.727] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#HWlNwIfUMEMQUL9gAAAL
+[2016-05-30 10:27:07.751] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 10:27:11.697] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 10:28:09.822] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#tSGkTJKA3Xt3_DB2AAAM
+[2016-05-30 10:28:09.842] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 10:28:10.778] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 10:28:12.828] [INFO] CHAT - POST /addMessage - OK | from sergio to inma
+{ __v: 0,
+  author: 'sergio',
+  text: '19',
+  tipo: 'ocupacion',
+  dia: '1',
+  horas: '10:28',
+  destinatario: 'inma',
+  leido: false,
+  _id: 574bf99cdf6ee8101f000001 }
+[2016-05-30 10:29:38.336] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#dqlHhlnDnLYFKTAzAAAN
+[2016-05-30 10:29:38.364] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 10:29:39.052] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 10:29:39.607] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-30 10:29:40.267] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&edu
+[2016-05-30 10:29:41.651] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-30 10:30:06.535] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 10:30:06.975] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&edu
+[2016-05-30 10:30:07.568] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-30 10:30:09.583] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 10:30:10.327] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&edu
+[2016-05-30 10:30:10.927] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-30 10:30:12.303] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 10:30:13.056] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 10:31:33.377] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 10:31:33.816] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&edu
+[2016-05-30 10:31:34.240] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-30 10:31:45.866] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 10:34:08.422] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#5lv1XMbcqYYcE5u1AAAO
+[2016-05-30 10:34:08.442] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 10:34:08.929] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 10:47:14.014] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#rpmfv7uKYeBxcjRWAAAA
+[2016-05-30 10:47:17.289] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#qx1z2-an7xplcueCAAAB
+[2016-05-30 10:47:17.320] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 10:47:18.272] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 10:47:21.390] [INFO] CHAT - POST /addMessage - OK | from sergio to inma
+{ __v: 0,
+  author: 'sergio',
+  tipo: 'weather',
+  dia: '1',
+  horas: '10:47',
+  destinatario: 'inma',
+  leido: false,
+  _id: 574bfe1992d8232c1c000001 }
+[2016-05-30 10:49:31.033] [INFO] CHAT - GET /getMessages - OK
+[2016-05-30 10:50:37.950] [INFO] CHAT - GET /getMessages - OK
+[2016-05-30 10:50:47.327] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#hHirj7p4kknLQdrSAAAC
+[2016-05-30 10:50:47.350] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 10:50:47.709] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 10:50:50.122] [INFO] CHAT - POST /addMessage - OK | from sergio to inma
+{ __v: 0,
+  author: 'sergio',
+  text: '[object Object]',
+  tipo: 'weather',
+  dia: '1',
+  horas: '10:50',
+  destinatario: 'inma',
+  leido: false,
+  _id: 574bfeea92d8232c1c000002 }
+[2016-05-30 10:51:34.671] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#753Z1CzqBN_zz6JLAAAD
+[2016-05-30 10:51:34.691] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 10:51:35.199] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 10:52:07.561] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#fvdYMboaVd-xqLsDAAAE
+[2016-05-30 10:52:07.581] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 10:52:07.771] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 10:52:09.344] [INFO] CHAT - POST /addMessage - OK | from sergio to inma
+{ __v: 0,
+  author: 'sergio',
+  text: '{"query":{"count":1,"created":"2016-05-30T08:52:09Z","lang":"es-ES","results":{"channel":{"units":{"distance":"km","pressure":"mb","speed":"km/h","temperature":"C"},"title":"Yahoo! Weather - Madrid, Madrid, ES","link":"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-766273/","description":"Yahoo! Weather for Madrid, Madrid, ES","language":"en-us","lastBuildDate":"Mon, 30 May 2016 10:52 AM CEST","ttl":"60","location":{"city":"Madrid","country":"Spain","region":" Madrid"},"wind":{"chill":"55","direction":"335","speed":"6.44"},"atmosphere":{"humidity":"76","pressure":"31933.66","rising":"0","visibility":"25.91"},"astronomy":{"sunrise":"6:47 am","sunset":"9:38 pm"},"image":{"title":"Yahoo! Weather","width":"142","height":"18","link":"http://weather.yahoo.com","url":"http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif"},"item":{"title":"Conditions for Madrid, Madrid, ES at 09:00 AM CEST","lat":"40.421429","long":"-3.67163","link":"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-766273/","pubDate":"Mon, 30 May 2016 09:00 AM CEST","condition":{"code":"28","date":"Mon, 30 May 2016 09:00 AM CEST","temp":"12","text":"Mostly Cloudy"},"forecast":[{"code":"28","date":"30 May 2016","day":"Mon","high":"21","low":"11","text":"Mostly Cloudy"},{"code":"34","date":"31 May 2016","day":"Tue","high":"22","low":"11","text":"Mostly Sunny"},{"code":"32","date":"01 Jun 2016","day":"Wed","high":"25","low":"9","text":"Sunny"},{"code":"30","date":"02 Jun 2016","day":"Thu","high":"26","low":"11","text":"Partly Cloudy"},{"code":"30","date":"03 Jun 2016","day":"Fri","high":"26","low":"14","text":"Partly Cloudy"},{"code":"34","date":"04 Jun 2016","day":"Sat","high":"26","low":"13","text":"Mostly Sunny"},{"code":"30","date":"05 Jun 2016","day":"Sun","high":"28","low":"14","text":"Partly Cloudy"},{"code":"30","date":"06 Jun 2016","day":"Mon","high":"29","low":"16","text":"Partly Cloudy"},{"code":"30","date":"07 Jun 2016","day":"Tue","high":"28","low":"17","text":"Partly Cloudy"},{"code":"30","date":"08 Jun 2016","day":"Wed","high":"29","low":"17","text":"Partly Cloudy"}],"description":"<![CDATA[<img src=\\"http://l.yimg.com/a/i/us/we/52/28.gif\\"/>\\n<BR />\\n<b>Current Conditions:</b>\\n<BR />Mostly Cloudy\\n<BR />\\n<BR />\\n<b>Forecast:</b>\\n<BR /> Mon - Mostly Cloudy. High: 21Low: 11\\n<BR /> Tue - Mostly Sunny. High: 22Low: 11\\n<BR /> Wed - Sunny. High: 25Low: 9\\n<BR /> Thu - Partly Cloudy. High: 26Low: 11\\n<BR /> Fri - Partly Cloudy. High: 26Low: 14\\n<BR />\\n<BR />\\n<a href=\\"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-766273/\\">Full Forecast at Yahoo! Weather</a>\\n<BR />\\n<BR />\\n(provided by <a href=\\"http://www.weather.com\\" >The Weather Channel</a>)\\n<BR />\\n]]>","guid":{"isPermaLink":"false"}}}}}}',
+  tipo: 'weather',
+  dia: '1',
+  horas: '10:52',
+  destinatario: 'inma',
+  leido: false,
+  _id: 574bff3992d8232c1c000003 }
+[2016-05-30 10:55:11.942] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#wEIJwKqtJdq5TUGnAAAF
+[2016-05-30 10:55:11.961] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 10:55:12.738] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 10:55:20.800] [INFO] CHAT - POST /addMessage - OK | from sergio to inma
+{ __v: 0,
+  author: 'sergio',
+  text: '{"query":{"count":1,"created":"2016-05-30T08:55:20Z","lang":"es-ES","results":{"channel":{"units":{"distance":"km","pressure":"mb","speed":"km/h","temperature":"C"},"title":"Yahoo! Weather - Madrid, Madrid, ES","link":"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-766273/","description":"Yahoo! Weather for Madrid, Madrid, ES","language":"en-us","lastBuildDate":"Mon, 30 May 2016 10:55 AM CEST","ttl":"60","location":{"city":"Madrid","country":"Spain","region":" Madrid"},"wind":{"chill":"55","direction":"315","speed":"6.44"},"atmosphere":{"humidity":"72","pressure":"31967.52","rising":"0","visibility":"25.91"},"astronomy":{"sunrise":"6:47 am","sunset":"9:38 pm"},"image":{"title":"Yahoo! Weather","width":"142","height":"18","link":"http://weather.yahoo.com","url":"http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif"},"item":{"title":"Conditions for Madrid, Madrid, ES at 10:00 AM CEST","lat":"40.421429","long":"-3.67163","link":"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-766273/","pubDate":"Mon, 30 May 2016 10:00 AM CEST","condition":{"code":"28","date":"Mon, 30 May 2016 10:00 AM CEST","temp":"12","text":"Mostly Cloudy"},"forecast":[{"code":"28","date":"30 May 2016","day":"Mon","high":"21","low":"11","text":"Mostly Cloudy"},{"code":"34","date":"31 May 2016","day":"Tue","high":"22","low":"11","text":"Mostly Sunny"},{"code":"32","date":"01 Jun 2016","day":"Wed","high":"25","low":"9","text":"Sunny"},{"code":"30","date":"02 Jun 2016","day":"Thu","high":"26","low":"11","text":"Partly Cloudy"},{"code":"30","date":"03 Jun 2016","day":"Fri","high":"26","low":"14","text":"Partly Cloudy"},{"code":"34","date":"04 Jun 2016","day":"Sat","high":"26","low":"13","text":"Mostly Sunny"},{"code":"30","date":"05 Jun 2016","day":"Sun","high":"28","low":"14","text":"Partly Cloudy"},{"code":"30","date":"06 Jun 2016","day":"Mon","high":"29","low":"16","text":"Partly Cloudy"},{"code":"30","date":"07 Jun 2016","day":"Tue","high":"28","low":"17","text":"Partly Cloudy"},{"code":"30","date":"08 Jun 2016","day":"Wed","high":"29","low":"17","text":"Partly Cloudy"}],"description":"<![CDATA[<img src=\\"http://l.yimg.com/a/i/us/we/52/28.gif\\"/>\\n<BR />\\n<b>Current Conditions:</b>\\n<BR />Mostly Cloudy\\n<BR />\\n<BR />\\n<b>Forecast:</b>\\n<BR /> Mon - Mostly Cloudy. High: 21Low: 11\\n<BR /> Tue - Mostly Sunny. High: 22Low: 11\\n<BR /> Wed - Sunny. High: 25Low: 9\\n<BR /> Thu - Partly Cloudy. High: 26Low: 11\\n<BR /> Fri - Partly Cloudy. High: 26Low: 14\\n<BR />\\n<BR />\\n<a href=\\"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-766273/\\">Full Forecast at Yahoo! Weather</a>\\n<BR />\\n<BR />\\n(provided by <a href=\\"http://www.weather.com\\" >The Weather Channel</a>)\\n<BR />\\n]]>","guid":{"isPermaLink":"false"}}}}}}',
+  tipo: 'weather',
+  dia: '1',
+  horas: '10:55',
+  destinatario: 'inma',
+  leido: false,
+  _id: 574bfff892d8232c1c000004 }
+[2016-05-30 10:56:14.601] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#6whVAp1RLd66sfpAAAAG
+[2016-05-30 10:56:14.620] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 10:56:15.377] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 10:56:37.660] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&edu
+[2016-05-30 10:56:38.643] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&edu
+[2016-05-30 10:56:39.888] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 10:56:40.714] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&edu
+[2016-05-30 10:56:41.860] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#iGCfJDjwLE5U-Z9wAAAH
+[2016-05-30 10:56:41.881] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 10:56:42.933] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-30 10:56:44.803] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&edu
+[2016-05-30 10:56:46.059] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 10:57:53.847] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#98kkJ_wF-9PzkWrmAAAI
+[2016-05-30 10:57:53.866] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 10:57:54.968] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 10:58:54.951] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#PKwX4IiBOaf5qZw4AAAJ
+[2016-05-30 10:58:54.975] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 10:58:55.699] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 10:59:05.298] [INFO] CHAT - POST /addMessage - OK | from sergio to inma
+{ __v: 0,
+  author: 'sergio',
+  text: '{"query":{"count":1,"created":"2016-05-30T08:59:05Z","lang":"es-ES","results":{"channel":{"units":{"distance":"km","pressure":"mb","speed":"km/h","temperature":"C"},"title":"Yahoo! Weather - Madrid, Madrid, ES","link":"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-766273/","description":"Yahoo! Weather for Madrid, Madrid, ES","language":"en-us","lastBuildDate":"Mon, 30 May 2016 10:59 AM CEST","ttl":"60","location":{"city":"Madrid","country":"Spain","region":" Madrid"},"wind":{"chill":"55","direction":"315","speed":"6.44"},"atmosphere":{"humidity":"72","pressure":"31967.52","rising":"0","visibility":"25.91"},"astronomy":{"sunrise":"6:47 am","sunset":"9:38 pm"},"image":{"title":"Yahoo! Weather","width":"142","height":"18","link":"http://weather.yahoo.com","url":"http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif"},"item":{"title":"Conditions for Madrid, Madrid, ES at 10:00 AM CEST","lat":"40.421429","long":"-3.67163","link":"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-766273/","pubDate":"Mon, 30 May 2016 10:00 AM CEST","condition":{"code":"28","date":"Mon, 30 May 2016 10:00 AM CEST","temp":"12","text":"Mostly Cloudy"},"forecast":[{"code":"28","date":"30 May 2016","day":"Mon","high":"21","low":"11","text":"Mostly Cloudy"},{"code":"34","date":"31 May 2016","day":"Tue","high":"22","low":"11","text":"Mostly Sunny"},{"code":"32","date":"01 Jun 2016","day":"Wed","high":"25","low":"9","text":"Sunny"},{"code":"30","date":"02 Jun 2016","day":"Thu","high":"26","low":"11","text":"Partly Cloudy"},{"code":"30","date":"03 Jun 2016","day":"Fri","high":"26","low":"14","text":"Partly Cloudy"},{"code":"34","date":"04 Jun 2016","day":"Sat","high":"26","low":"13","text":"Mostly Sunny"},{"code":"30","date":"05 Jun 2016","day":"Sun","high":"28","low":"14","text":"Partly Cloudy"},{"code":"30","date":"06 Jun 2016","day":"Mon","high":"29","low":"16","text":"Partly Cloudy"},{"code":"30","date":"07 Jun 2016","day":"Tue","high":"28","low":"17","text":"Partly Cloudy"},{"code":"30","date":"08 Jun 2016","day":"Wed","high":"29","low":"17","text":"Partly Cloudy"}],"description":"<![CDATA[<img src=\\"http://l.yimg.com/a/i/us/we/52/28.gif\\"/>\\n<BR />\\n<b>Current Conditions:</b>\\n<BR />Mostly Cloudy\\n<BR />\\n<BR />\\n<b>Forecast:</b>\\n<BR /> Mon - Mostly Cloudy. High: 21Low: 11\\n<BR /> Tue - Mostly Sunny. High: 22Low: 11\\n<BR /> Wed - Sunny. High: 25Low: 9\\n<BR /> Thu - Partly Cloudy. High: 26Low: 11\\n<BR /> Fri - Partly Cloudy. High: 26Low: 14\\n<BR />\\n<BR />\\n<a href=\\"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-766273/\\">Full Forecast at Yahoo! Weather</a>\\n<BR />\\n<BR />\\n(provided by <a href=\\"http://www.weather.com\\" >The Weather Channel</a>)\\n<BR />\\n]]>","guid":{"isPermaLink":"false"}}}}}}',
+  tipo: 'weather',
+  dia: '1',
+  horas: '10:59',
+  destinatario: 'inma',
+  leido: false,
+  _id: 574c00d992d8232c1c000005 }
+[2016-05-30 11:34:52.456] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&edu
+[2016-05-30 11:34:52.979] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 12:20:49.674] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#oABDKThXpCiI7an8AAAK
+[2016-05-30 12:20:49.690] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 12:20:51.489] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 12:23:11.216] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#2fKxoat10xhgPTiYAAAA
+[2016-05-30 12:23:12.547] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#6fbx_L4YXgFDWOnyAAAB
+[2016-05-30 12:23:12.576] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 12:23:13.384] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 12:23:52.386] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#ydfPXnc3mcH7LWdOAAAC
+[2016-05-30 12:23:52.405] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 12:23:52.987] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 12:24:56.351] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#AVeWP3n8Ct3cKkTVAAAD
+[2016-05-30 12:24:56.368] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 12:24:57.212] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 12:26:43.048] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#4nygPwXD8Rlrpd5qAAAE
+[2016-05-30 12:26:44.284] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 12:27:13.259] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#DBeSFqFnpcC1Atd1AAAF
+[2016-05-30 12:27:13.277] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 12:27:14.218] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 12:29:22.440] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 12:29:28.918] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#bIRpJZYFxcY-l-W0AAAG
+[2016-05-30 12:29:28.937] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 12:30:27.989] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#Xf1pPDfkB77w4zIeAAAH
+[2016-05-30 12:30:28.007] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 12:30:29.567] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 12:31:12.962] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#U-8Z4emHsxt-kPGMAAAI
+[2016-05-30 12:31:12.980] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 12:31:22.753] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 12:31:55.298] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#8NoGHvjyR-mGDqzYAAAJ
+[2016-05-30 12:31:55.314] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 12:31:56.320] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 12:33:25.401] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#FnMStuovGACjYk2YAAAK
+[2016-05-30 12:33:25.416] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 12:33:26.284] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 12:34:52.996] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#VJgR5N7YVo5r-H6lAAAL
+[2016-05-30 12:34:53.014] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 12:36:30.744] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#sEsSK6qKZn76OszVAAAM
+[2016-05-30 12:36:30.761] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 12:36:32.228] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 12:37:14.714] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#wdVVKPUSGQN6sQj-AAAN
+[2016-05-30 12:37:14.731] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 12:37:15.222] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 12:37:22.951] [INFO] CHAT - POST /addMessage - OK | from sergio to inma
+{ __v: 0,
+  author: 'sergio',
+  text: '{"query":{"count":0,"created":"2016-05-30T10:37:22Z","lang":"es-ES","results":null}}',
+  tipo: 'weather',
+  dia: '1',
+  horas: '12:37',
+  destinatario: 'inma',
+  leido: false,
+  _id: 574c17e2e67b62b01f000001 }
+[2016-05-30 12:37:42.933] [INFO] CHAT - POST /addMessage - OK | from sergio to inma
+{ __v: 0,
+  author: 'sergio',
+  text: '{"query":{"count":0,"created":"2016-05-30T10:37:42Z","lang":"es-ES","results":null}}',
+  tipo: 'weather',
+  dia: '1',
+  horas: '12:37',
+  destinatario: 'inma',
+  leido: false,
+  _id: 574c17f6e67b62b01f000002 }
+[2016-05-30 12:38:02.286] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#yShl5mBIibeJuGP_AAAO
+[2016-05-30 12:38:02.304] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 12:38:02.981] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 12:38:08.980] [INFO] CHAT - POST /addMessage - OK | from sergio to inma
+{ __v: 0,
+  author: 'sergio',
+  text: '{"query":{"count":0,"created":"2016-05-30T10:38:08Z","lang":"es-ES","results":null}}',
+  tipo: 'weather',
+  dia: '1',
+  horas: '12:38',
+  destinatario: 'inma',
+  leido: false,
+  _id: 574c1810e67b62b01f000003 }
+[2016-05-30 12:38:50.206] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#JOr_ycAITwKHyAD5AAAP
+[2016-05-30 12:38:50.225] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 12:38:51.120] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 12:38:56.700] [INFO] CHAT - POST /addMessage - OK | from sergio to inma
+{ __v: 0,
+  author: 'sergio',
+  text: '{"query":{"count":0,"created":"2016-05-30T10:38:56Z","lang":"es-ES","results":null}}',
+  tipo: 'weather',
+  dia: '1',
+  horas: '12:38',
+  destinatario: 'inma',
+  leido: false,
+  _id: 574c1840e67b62b01f000004 }
+[2016-05-30 12:39:07.671] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#V3dx54Vl_R3mVWLKAAAQ
+[2016-05-30 12:39:07.694] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 12:39:08.249] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 12:39:14.173] [INFO] CHAT - POST /addMessage - OK | from sergio to inma
+{ __v: 0,
+  author: 'sergio',
+  text: '{"query":{"count":1,"created":"2016-05-30T10:39:13Z","lang":"es-ES","results":{"channel":{"units":{"distance":"km","pressure":"mb","speed":"km/h","temperature":"C"},"title":"Yahoo! Weather - Madrid, Madrid, ES","link":"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-766273/","description":"Yahoo! Weather for Madrid, Madrid, ES","language":"en-us","lastBuildDate":"Mon, 30 May 2016 12:39 PM CEST","ttl":"60","location":{"city":"Madrid","country":"Spain","region":" Madrid"},"wind":{"chill":"57","direction":"315","speed":"6.44"},"atmosphere":{"humidity":"66","pressure":"31967.52","rising":"0","visibility":"25.91"},"astronomy":{"sunrise":"6:47 am","sunset":"9:38 pm"},"image":{"title":"Yahoo! Weather","width":"142","height":"18","link":"http://weather.yahoo.com","url":"http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif"},"item":{"title":"Conditions for Madrid, Madrid, ES at 11:00 AM CEST","lat":"40.421429","long":"-3.67163","link":"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-766273/","pubDate":"Mon, 30 May 2016 11:00 AM CEST","condition":{"code":"28","date":"Mon, 30 May 2016 11:00 AM CEST","temp":"14","text":"Mostly Cloudy"},"forecast":[{"code":"28","date":"30 May 2016","day":"Mon","high":"21","low":"11","text":"Mostly Cloudy"},{"code":"34","date":"31 May 2016","day":"Tue","high":"22","low":"11","text":"Mostly Sunny"},{"code":"32","date":"01 Jun 2016","day":"Wed","high":"25","low":"9","text":"Sunny"},{"code":"30","date":"02 Jun 2016","day":"Thu","high":"26","low":"11","text":"Partly Cloudy"},{"code":"30","date":"03 Jun 2016","day":"Fri","high":"26","low":"14","text":"Partly Cloudy"},{"code":"34","date":"04 Jun 2016","day":"Sat","high":"26","low":"13","text":"Mostly Sunny"},{"code":"30","date":"05 Jun 2016","day":"Sun","high":"28","low":"14","text":"Partly Cloudy"},{"code":"30","date":"06 Jun 2016","day":"Mon","high":"29","low":"16","text":"Partly Cloudy"},{"code":"30","date":"07 Jun 2016","day":"Tue","high":"28","low":"17","text":"Partly Cloudy"},{"code":"30","date":"08 Jun 2016","day":"Wed","high":"29","low":"17","text":"Partly Cloudy"}],"description":"<![CDATA[<img src=\\"http://l.yimg.com/a/i/us/we/52/28.gif\\"/>\\n<BR />\\n<b>Current Conditions:</b>\\n<BR />Mostly Cloudy\\n<BR />\\n<BR />\\n<b>Forecast:</b>\\n<BR /> Mon - Mostly Cloudy. High: 21Low: 11\\n<BR /> Tue - Mostly Sunny. High: 22Low: 11\\n<BR /> Wed - Sunny. High: 25Low: 9\\n<BR /> Thu - Partly Cloudy. High: 26Low: 11\\n<BR /> Fri - Partly Cloudy. High: 26Low: 14\\n<BR />\\n<BR />\\n<a href=\\"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-766273/\\">Full Forecast at Yahoo! Weather</a>\\n<BR />\\n<BR />\\n(provided by <a href=\\"http://www.weather.com\\" >The Weather Channel</a>)\\n<BR />\\n]]>","guid":{"isPermaLink":"false"}}}}}}',
+  tipo: 'weather',
+  dia: '1',
+  horas: '12:39',
+  destinatario: 'inma',
+  leido: false,
+  _id: 574c1852e67b62b01f000005 }
+[2016-05-30 12:40:02.316] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#fnLbVejmByYYWEVsAAAR
+[2016-05-30 12:40:02.335] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 12:40:03.390] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 12:40:16.154] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#xLwAiHeij3uImRQ1AAAS
+[2016-05-30 12:40:16.174] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 12:40:17.037] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 12:40:22.565] [INFO] CHAT - POST /addMessage - OK | from sergio to inma
+{ __v: 0,
+  author: 'sergio',
+  text: '{"query":{"count":1,"created":"2016-05-30T10:40:21Z","lang":"es-ES","results":{"channel":{"units":{"distance":"km","pressure":"mb","speed":"km/h","temperature":"C"},"title":"Yahoo! Weather - Madrid, Madrid, ES","link":"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-766273/","description":"Yahoo! Weather for Madrid, Madrid, ES","language":"en-us","lastBuildDate":"Mon, 30 May 2016 12:40 PM CEST","ttl":"60","location":{"city":"Madrid","country":"Spain","region":" Madrid"},"wind":{"chill":"57","direction":"315","speed":"6.44"},"atmosphere":{"humidity":"66","pressure":"31967.52","rising":"0","visibility":"25.91"},"astronomy":{"sunrise":"6:47 am","sunset":"9:38 pm"},"image":{"title":"Yahoo! Weather","width":"142","height":"18","link":"http://weather.yahoo.com","url":"http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif"},"item":{"title":"Conditions for Madrid, Madrid, ES at 11:00 AM CEST","lat":"40.421429","long":"-3.67163","link":"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-766273/","pubDate":"Mon, 30 May 2016 11:00 AM CEST","condition":{"code":"28","date":"Mon, 30 May 2016 11:00 AM CEST","temp":"14","text":"Mostly Cloudy"},"forecast":[{"code":"28","date":"30 May 2016","day":"Mon","high":"21","low":"11","text":"Mostly Cloudy"},{"code":"34","date":"31 May 2016","day":"Tue","high":"22","low":"11","text":"Mostly Sunny"},{"code":"32","date":"01 Jun 2016","day":"Wed","high":"25","low":"9","text":"Sunny"},{"code":"30","date":"02 Jun 2016","day":"Thu","high":"26","low":"11","text":"Partly Cloudy"},{"code":"30","date":"03 Jun 2016","day":"Fri","high":"26","low":"14","text":"Partly Cloudy"},{"code":"34","date":"04 Jun 2016","day":"Sat","high":"26","low":"13","text":"Mostly Sunny"},{"code":"30","date":"05 Jun 2016","day":"Sun","high":"28","low":"14","text":"Partly Cloudy"},{"code":"30","date":"06 Jun 2016","day":"Mon","high":"29","low":"16","text":"Partly Cloudy"},{"code":"30","date":"07 Jun 2016","day":"Tue","high":"28","low":"17","text":"Partly Cloudy"},{"code":"30","date":"08 Jun 2016","day":"Wed","high":"29","low":"17","text":"Partly Cloudy"}],"description":"<![CDATA[<img src=\\"http://l.yimg.com/a/i/us/we/52/28.gif\\"/>\\n<BR />\\n<b>Current Conditions:</b>\\n<BR />Mostly Cloudy\\n<BR />\\n<BR />\\n<b>Forecast:</b>\\n<BR /> Mon - Mostly Cloudy. High: 21Low: 11\\n<BR /> Tue - Mostly Sunny. High: 22Low: 11\\n<BR /> Wed - Sunny. High: 25Low: 9\\n<BR /> Thu - Partly Cloudy. High: 26Low: 11\\n<BR /> Fri - Partly Cloudy. High: 26Low: 14\\n<BR />\\n<BR />\\n<a href=\\"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-766273/\\">Full Forecast at Yahoo! Weather</a>\\n<BR />\\n<BR />\\n(provided by <a href=\\"http://www.weather.com\\" >The Weather Channel</a>)\\n<BR />\\n]]>","guid":{"isPermaLink":"false"}}}}}}',
+  tipo: 'weather',
+  dia: '1',
+  horas: '12:40',
+  destinatario: 'inma',
+  leido: false,
+  _id: 574c1896e67b62b01f000006 }
+[2016-05-30 12:41:36.751] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#NuqKQsjWvINBMeMbAAAT
+[2016-05-30 12:41:36.768] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 12:41:37.305] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 12:41:42.135] [INFO] CHAT - POST /addMessage - OK | from sergio to inma
+{ __v: 0,
+  author: 'sergio',
+  text: '{"query":{"count":1,"created":"2016-05-30T10:41:41Z","lang":"es-ES","results":{"channel":{"units":{"distance":"km","pressure":"mb","speed":"km/h","temperature":"C"},"title":"Yahoo! Weather - Madrid, Madrid, ES","link":"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-766273/","description":"Yahoo! Weather for Madrid, Madrid, ES","language":"en-us","lastBuildDate":"Mon, 30 May 2016 12:41 PM CEST","ttl":"60","location":{"city":"Madrid","country":"Spain","region":" Madrid"},"wind":{"chill":"57","direction":"315","speed":"6.44"},"atmosphere":{"humidity":"66","pressure":"31967.52","rising":"0","visibility":"25.91"},"astronomy":{"sunrise":"6:47 am","sunset":"9:38 pm"},"image":{"title":"Yahoo! Weather","width":"142","height":"18","link":"http://weather.yahoo.com","url":"http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif"},"item":{"title":"Conditions for Madrid, Madrid, ES at 11:00 AM CEST","lat":"40.421429","long":"-3.67163","link":"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-766273/","pubDate":"Mon, 30 May 2016 11:00 AM CEST","condition":{"code":"28","date":"Mon, 30 May 2016 11:00 AM CEST","temp":"14","text":"Mostly Cloudy"},"forecast":[{"code":"28","date":"30 May 2016","day":"Mon","high":"21","low":"11","text":"Mostly Cloudy"},{"code":"34","date":"31 May 2016","day":"Tue","high":"22","low":"11","text":"Mostly Sunny"},{"code":"32","date":"01 Jun 2016","day":"Wed","high":"25","low":"9","text":"Sunny"},{"code":"30","date":"02 Jun 2016","day":"Thu","high":"26","low":"11","text":"Partly Cloudy"},{"code":"30","date":"03 Jun 2016","day":"Fri","high":"26","low":"14","text":"Partly Cloudy"},{"code":"34","date":"04 Jun 2016","day":"Sat","high":"26","low":"13","text":"Mostly Sunny"},{"code":"30","date":"05 Jun 2016","day":"Sun","high":"28","low":"14","text":"Partly Cloudy"},{"code":"30","date":"06 Jun 2016","day":"Mon","high":"29","low":"16","text":"Partly Cloudy"},{"code":"30","date":"07 Jun 2016","day":"Tue","high":"28","low":"17","text":"Partly Cloudy"},{"code":"30","date":"08 Jun 2016","day":"Wed","high":"29","low":"17","text":"Partly Cloudy"}],"description":"<![CDATA[<img src=\\"http://l.yimg.com/a/i/us/we/52/28.gif\\"/>\\n<BR />\\n<b>Current Conditions:</b>\\n<BR />Mostly Cloudy\\n<BR />\\n<BR />\\n<b>Forecast:</b>\\n<BR /> Mon - Mostly Cloudy. High: 21Low: 11\\n<BR /> Tue - Mostly Sunny. High: 22Low: 11\\n<BR /> Wed - Sunny. High: 25Low: 9\\n<BR /> Thu - Partly Cloudy. High: 26Low: 11\\n<BR /> Fri - Partly Cloudy. High: 26Low: 14\\n<BR />\\n<BR />\\n<a href=\\"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-766273/\\">Full Forecast at Yahoo! Weather</a>\\n<BR />\\n<BR />\\n(provided by <a href=\\"http://www.weather.com\\" >The Weather Channel</a>)\\n<BR />\\n]]>","guid":{"isPermaLink":"false"}}}}}}',
+  tipo: 'weather',
+  dia: '1',
+  horas: '12:41',
+  destinatario: 'inma',
+  leido: false,
+  _id: 574c18e6e67b62b01f000007 }
+[2016-05-30 12:41:50.484] [INFO] CHAT - POST /addMessage - OK | from sergio to inma
+{ __v: 0,
+  author: 'sergio',
+  text: '{"query":{"count":1,"created":"2016-05-30T10:41:50Z","lang":"es-ES","results":{"channel":{"units":{"distance":"km","pressure":"mb","speed":"km/h","temperature":"C"},"title":"Yahoo! Weather - London, England, GB","link":"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-44418/","description":"Yahoo! Weather for London, England, GB","language":"en-us","lastBuildDate":"Mon, 30 May 2016 11:41 AM BST","ttl":"60","location":{"city":"London","country":"United Kingdom","region":" England"},"wind":{"chill":"52","direction":"5","speed":"28.97"},"atmosphere":{"humidity":"82","pressure":"34270.27","rising":"0","visibility":"25.91"},"astronomy":{"sunrise":"4:49 am","sunset":"9:8 pm"},"image":{"title":"Yahoo! Weather","width":"142","height":"18","link":"http://weather.yahoo.com","url":"http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif"},"item":{"title":"Conditions for London, England, GB at 10:00 AM BST","lat":"51.507702","long":"-0.12797","link":"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-44418/","pubDate":"Mon, 30 May 2016 10:00 AM BST","condition":{"code":"26","date":"Mon, 30 May 2016 10:00 AM BST","temp":"12","text":"Cloudy"},"forecast":[{"code":"26","date":"30 May 2016","day":"Mon","high":"19","low":"10","text":"Cloudy"},{"code":"39","date":"31 May 2016","day":"Tue","high":"15","low":"11","text":"Scattered Showers"},{"code":"26","date":"01 Jun 2016","day":"Wed","high":"18","low":"12","text":"Cloudy"},{"code":"23","date":"02 Jun 2016","day":"Thu","high":"18","low":"12","text":"Breezy"},{"code":"28","date":"03 Jun 2016","day":"Fri","high":"18","low":"11","text":"Mostly Cloudy"},{"code":"28","date":"04 Jun 2016","day":"Sat","high":"20","low":"11","text":"Mostly Cloudy"},{"code":"30","date":"05 Jun 2016","day":"Sun","high":"21","low":"11","text":"Partly Cloudy"},{"code":"30","date":"06 Jun 2016","day":"Mon","high":"22","low":"13","text":"Partly Cloudy"},{"code":"28","date":"07 Jun 2016","day":"Tue","high":"23","low":"13","text":"Mostly Cloudy"},{"code":"39","date":"08 Jun 2016","day":"Wed","high":"21","low":"13","text":"Scattered Showers"}],"description":"<![CDATA[<img src=\\"http://l.yimg.com/a/i/us/we/52/26.gif\\"/>\\n<BR />\\n<b>Current Conditions:</b>\\n<BR />Cloudy\\n<BR />\\n<BR />\\n<b>Forecast:</b>\\n<BR /> Mon - Cloudy. High: 19Low: 10\\n<BR /> Tue - Scattered Showers. High: 15Low: 11\\n<BR /> Wed - Cloudy. High: 18Low: 12\\n<BR /> Thu - Breezy. High: 18Low: 12\\n<BR /> Fri - Mostly Cloudy. High: 18Low: 11\\n<BR />\\n<BR />\\n<a href=\\"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-44418/\\">Full Forecast at Yahoo! Weather</a>\\n<BR />\\n<BR />\\n(provided by <a href=\\"http://www.weather.com\\" >The Weather Channel</a>)\\n<BR />\\n]]>","guid":{"isPermaLink":"false"}}}}}}',
+  tipo: 'weather',
+  dia: '1',
+  horas: '12:41',
+  destinatario: 'inma',
+  leido: false,
+  _id: 574c18eee67b62b01f000008 }
+[2016-05-30 12:42:02.975] [INFO] CHAT - POST /addMessage - OK | from sergio to inma
+{ __v: 0,
+  author: 'sergio',
+  text: '{"query":{"count":1,"created":"2016-05-30T10:42:02Z","lang":"es-ES","results":{"channel":{"units":{"distance":"km","pressure":"mb","speed":"km/h","temperature":"C"},"title":"Yahoo! Weather - London, England, GB","link":"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-44418/","description":"Yahoo! Weather for London, England, GB","language":"en-us","lastBuildDate":"Mon, 30 May 2016 11:42 AM BST","ttl":"60","location":{"city":"London","country":"United Kingdom","region":" England"},"wind":{"chill":"52","direction":"5","speed":"28.97"},"atmosphere":{"humidity":"82","pressure":"34270.27","rising":"0","visibility":"25.91"},"astronomy":{"sunrise":"4:49 am","sunset":"9:8 pm"},"image":{"title":"Yahoo! Weather","width":"142","height":"18","link":"http://weather.yahoo.com","url":"http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif"},"item":{"title":"Conditions for London, England, GB at 10:00 AM BST","lat":"51.507702","long":"-0.12797","link":"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-44418/","pubDate":"Mon, 30 May 2016 10:00 AM BST","condition":{"code":"26","date":"Mon, 30 May 2016 10:00 AM BST","temp":"12","text":"Cloudy"},"forecast":[{"code":"26","date":"30 May 2016","day":"Mon","high":"19","low":"10","text":"Cloudy"},{"code":"39","date":"31 May 2016","day":"Tue","high":"15","low":"11","text":"Scattered Showers"},{"code":"26","date":"01 Jun 2016","day":"Wed","high":"18","low":"12","text":"Cloudy"},{"code":"23","date":"02 Jun 2016","day":"Thu","high":"18","low":"12","text":"Breezy"},{"code":"28","date":"03 Jun 2016","day":"Fri","high":"18","low":"11","text":"Mostly Cloudy"},{"code":"28","date":"04 Jun 2016","day":"Sat","high":"20","low":"11","text":"Mostly Cloudy"},{"code":"30","date":"05 Jun 2016","day":"Sun","high":"21","low":"11","text":"Partly Cloudy"},{"code":"30","date":"06 Jun 2016","day":"Mon","high":"22","low":"13","text":"Partly Cloudy"},{"code":"28","date":"07 Jun 2016","day":"Tue","high":"23","low":"13","text":"Mostly Cloudy"},{"code":"39","date":"08 Jun 2016","day":"Wed","high":"21","low":"13","text":"Scattered Showers"}],"description":"<![CDATA[<img src=\\"http://l.yimg.com/a/i/us/we/52/26.gif\\"/>\\n<BR />\\n<b>Current Conditions:</b>\\n<BR />Cloudy\\n<BR />\\n<BR />\\n<b>Forecast:</b>\\n<BR /> Mon - Cloudy. High: 19Low: 10\\n<BR /> Tue - Scattered Showers. High: 15Low: 11\\n<BR /> Wed - Cloudy. High: 18Low: 12\\n<BR /> Thu - Breezy. High: 18Low: 12\\n<BR /> Fri - Mostly Cloudy. High: 18Low: 11\\n<BR />\\n<BR />\\n<a href=\\"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-44418/\\">Full Forecast at Yahoo! Weather</a>\\n<BR />\\n<BR />\\n(provided by <a href=\\"http://www.weather.com\\" >The Weather Channel</a>)\\n<BR />\\n]]>","guid":{"isPermaLink":"false"}}}}}}',
+  tipo: 'weather',
+  dia: '1',
+  horas: '12:42',
+  destinatario: 'inma',
+  leido: false,
+  _id: 574c18fae67b62b01f000009 }
+[2016-05-30 12:42:26.712] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#3Bexlnjx7YKTxgT-AAAU
+[2016-05-30 12:42:26.734] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 12:42:28.376] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 12:42:47.514] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#firMJpGXPT1NB00RAAAV
+[2016-05-30 12:42:47.535] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 12:42:48.480] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 12:44:21.146] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#To56N-GBExreqWICAAAW
+[2016-05-30 12:44:21.165] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 12:44:22.179] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 12:47:30.550] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#_1VXoP6nL-PDlA1LAAAX
+[2016-05-30 12:47:30.566] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 12:47:31.256] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 12:50:29.280] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#MiV7lOuPrY4dxJblAAAY
+[2016-05-30 12:50:29.299] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 12:50:30.187] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 12:51:04.844] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#NcT6Rlm98OBO2_evAAAZ
+[2016-05-30 12:51:04.864] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 12:51:05.839] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 12:51:25.120] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#ONe3FPfoFnttqEJhAAAa
+[2016-05-30 12:51:25.140] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 12:51:26.060] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 12:51:56.875] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#yecjyvCV6Q8eUcp4AAAb
+[2016-05-30 12:51:56.891] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 12:51:57.804] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 12:52:23.171] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#igvjET0TwZj2sVcSAAAc
+[2016-05-30 12:52:23.188] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 12:52:24.218] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 12:52:41.241] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#T11FB5OU3kckNCV1AAAd
+[2016-05-30 12:52:41.259] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 12:52:41.902] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 12:53:10.624] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#a1VABY0RGSyleKErAAAe
+[2016-05-30 12:53:10.680] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 12:53:11.145] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 12:53:49.825] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#_yggGjnUiPUgttw-AAAf
+[2016-05-30 12:53:49.842] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 12:53:50.545] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 12:56:23.685] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#z7WNIG8FkD99FP8oAAAg
+[2016-05-30 12:56:23.701] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 12:56:24.357] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 12:58:47.511] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#3-_PiLkqOLUWA0G2AAAh
+[2016-05-30 12:58:47.529] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 12:58:48.596] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 12:59:58.578] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#oKPZKwG7fI51VQ1qAAAi
+[2016-05-30 12:59:58.596] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 12:59:59.420] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 13:00:39.275] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#_HZYLatqPeiLoY5cAAAj
+[2016-05-30 13:00:39.294] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 13:00:40.027] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 13:01:41.321] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#QVHQLFa2pxg2Ko17AAAk
+[2016-05-30 13:01:41.340] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 13:01:42.253] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 13:01:51.007] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#pdfjm9CDm-buSoGfAAAl
+[2016-05-30 13:01:51.031] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 13:01:52.170] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 13:02:37.148] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#NwI2Evf60YsIbIP3AAAm
+[2016-05-30 13:02:37.169] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 13:02:37.677] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 13:02:54.327] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#GJvK_uTjkz0qCXoCAAAn
+[2016-05-30 13:02:54.349] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 13:02:55.248] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 13:03:01.284] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 13:03:09.924] [INFO] CHAT - POST /addMessage - OK | from sergio to inma
+{ __v: 0,
+  author: 'sergio',
+  text: '{"query":{"count":1,"created":"2016-05-30T11:03:09Z","lang":"es-ES","results":{"channel":{"units":{"distance":"km","pressure":"mb","speed":"km/h","temperature":"C"},"title":"Yahoo! Weather - Madrid, Madrid, ES","link":"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-766273/","description":"Yahoo! Weather for Madrid, Madrid, ES","language":"en-us","lastBuildDate":"Mon, 30 May 2016 01:03 PM CEST","ttl":"60","location":{"city":"Madrid","country":"Spain","region":" Madrid"},"wind":{"chill":"59","direction":"270","speed":"0.00"},"atmosphere":{"humidity":"57","pressure":"31933.66","rising":"0","visibility":"25.91"},"astronomy":{"sunrise":"6:47 am","sunset":"9:38 pm"},"image":{"title":"Yahoo! Weather","width":"142","height":"18","link":"http://weather.yahoo.com","url":"http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif"},"item":{"title":"Conditions for Madrid, Madrid, ES at 12:00 PM CEST","lat":"40.421429","long":"-3.67163","link":"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-766273/","pubDate":"Mon, 30 May 2016 12:00 PM CEST","condition":{"code":"30","date":"Mon, 30 May 2016 12:00 PM CEST","temp":"15","text":"Partly Cloudy"},"forecast":[{"code":"28","date":"30 May 2016","day":"Mon","high":"21","low":"11","text":"Mostly Cloudy"},{"code":"34","date":"31 May 2016","day":"Tue","high":"22","low":"11","text":"Mostly Sunny"},{"code":"32","date":"01 Jun 2016","day":"Wed","high":"25","low":"9","text":"Sunny"},{"code":"30","date":"02 Jun 2016","day":"Thu","high":"26","low":"11","text":"Partly Cloudy"},{"code":"30","date":"03 Jun 2016","day":"Fri","high":"26","low":"14","text":"Partly Cloudy"},{"code":"34","date":"04 Jun 2016","day":"Sat","high":"26","low":"13","text":"Mostly Sunny"},{"code":"30","date":"05 Jun 2016","day":"Sun","high":"28","low":"14","text":"Partly Cloudy"},{"code":"30","date":"06 Jun 2016","day":"Mon","high":"29","low":"16","text":"Partly Cloudy"},{"code":"30","date":"07 Jun 2016","day":"Tue","high":"28","low":"17","text":"Partly Cloudy"},{"code":"30","date":"08 Jun 2016","day":"Wed","high":"29","low":"17","text":"Partly Cloudy"}],"description":"<![CDATA[<img src=\\"http://l.yimg.com/a/i/us/we/52/30.gif\\"/>\\n<BR />\\n<b>Current Conditions:</b>\\n<BR />Partly Cloudy\\n<BR />\\n<BR />\\n<b>Forecast:</b>\\n<BR /> Mon - Mostly Cloudy. High: 21Low: 11\\n<BR /> Tue - Mostly Sunny. High: 22Low: 11\\n<BR /> Wed - Sunny. High: 25Low: 9\\n<BR /> Thu - Partly Cloudy. High: 26Low: 11\\n<BR /> Fri - Partly Cloudy. High: 26Low: 14\\n<BR />\\n<BR />\\n<a href=\\"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-766273/\\">Full Forecast at Yahoo! Weather</a>\\n<BR />\\n<BR />\\n(provided by <a href=\\"http://www.weather.com\\" >The Weather Channel</a>)\\n<BR />\\n]]>","guid":{"isPermaLink":"false"}}}}}}',
+  tipo: 'weather',
+  dia: '1',
+  horas: '13:3',
+  destinatario: 'inma',
+  leido: false,
+  _id: 574c1dede67b62b01f00000a }
+[2016-05-30 13:03:16.524] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 13:03:33.253] [INFO] CHAT - POST /addMessage - OK | from sergio to inma
+{ __v: 0,
+  author: 'sergio',
+  text: '{"query":{"count":1,"created":"2016-05-30T11:03:33Z","lang":"es-ES","results":{"channel":{"units":{"distance":"km","pressure":"mb","speed":"km/h","temperature":"C"},"title":"Yahoo! Weather - Madrid, Madrid, ES","link":"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-766273/","description":"Yahoo! Weather for Madrid, Madrid, ES","language":"en-us","lastBuildDate":"Mon, 30 May 2016 01:03 PM CEST","ttl":"60","location":{"city":"Madrid","country":"Spain","region":" Madrid"},"wind":{"chill":"59","direction":"270","speed":"0.00"},"atmosphere":{"humidity":"57","pressure":"31933.66","rising":"0","visibility":"25.91"},"astronomy":{"sunrise":"6:47 am","sunset":"9:38 pm"},"image":{"title":"Yahoo! Weather","width":"142","height":"18","link":"http://weather.yahoo.com","url":"http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif"},"item":{"title":"Conditions for Madrid, Madrid, ES at 12:00 PM CEST","lat":"40.421429","long":"-3.67163","link":"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-766273/","pubDate":"Mon, 30 May 2016 12:00 PM CEST","condition":{"code":"30","date":"Mon, 30 May 2016 12:00 PM CEST","temp":"15","text":"Partly Cloudy"},"forecast":[{"code":"28","date":"30 May 2016","day":"Mon","high":"21","low":"11","text":"Mostly Cloudy"},{"code":"34","date":"31 May 2016","day":"Tue","high":"22","low":"11","text":"Mostly Sunny"},{"code":"32","date":"01 Jun 2016","day":"Wed","high":"25","low":"9","text":"Sunny"},{"code":"30","date":"02 Jun 2016","day":"Thu","high":"26","low":"11","text":"Partly Cloudy"},{"code":"30","date":"03 Jun 2016","day":"Fri","high":"26","low":"14","text":"Partly Cloudy"},{"code":"34","date":"04 Jun 2016","day":"Sat","high":"26","low":"13","text":"Mostly Sunny"},{"code":"30","date":"05 Jun 2016","day":"Sun","high":"28","low":"14","text":"Partly Cloudy"},{"code":"30","date":"06 Jun 2016","day":"Mon","high":"29","low":"16","text":"Partly Cloudy"},{"code":"30","date":"07 Jun 2016","day":"Tue","high":"28","low":"17","text":"Partly Cloudy"},{"code":"30","date":"08 Jun 2016","day":"Wed","high":"29","low":"17","text":"Partly Cloudy"}],"description":"<![CDATA[<img src=\\"http://l.yimg.com/a/i/us/we/52/30.gif\\"/>\\n<BR />\\n<b>Current Conditions:</b>\\n<BR />Partly Cloudy\\n<BR />\\n<BR />\\n<b>Forecast:</b>\\n<BR /> Mon - Mostly Cloudy. High: 21Low: 11\\n<BR /> Tue - Mostly Sunny. High: 22Low: 11\\n<BR /> Wed - Sunny. High: 25Low: 9\\n<BR /> Thu - Partly Cloudy. High: 26Low: 11\\n<BR /> Fri - Partly Cloudy. High: 26Low: 14\\n<BR />\\n<BR />\\n<a href=\\"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-766273/\\">Full Forecast at Yahoo! Weather</a>\\n<BR />\\n<BR />\\n(provided by <a href=\\"http://www.weather.com\\" >The Weather Channel</a>)\\n<BR />\\n]]>","guid":{"isPermaLink":"false"}}}}}}',
+  tipo: 'weather',
+  dia: '1',
+  horas: '13:3',
+  destinatario: 'inma',
+  leido: false,
+  _id: 574c1e05e67b62b01f00000b }
+[2016-05-30 13:05:00.261] [INFO] CHAT - POST /addMessage - OK | from sergio to inma
+{ __v: 0,
+  author: 'sergio',
+  text: '{"query":{"count":1,"created":"2016-05-30T11:05:00Z","lang":"es-ES","results":{"channel":{"units":{"distance":"km","pressure":"mb","speed":"km/h","temperature":"C"},"title":"Yahoo! Weather - London, England, GB","link":"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-44418/","description":"Yahoo! Weather for London, England, GB","language":"en-us","lastBuildDate":"Mon, 30 May 2016 12:05 PM BST","ttl":"60","location":{"city":"London","country":"United Kingdom","region":" England"},"wind":{"chill":"54","direction":"0","speed":"28.97"},"atmosphere":{"humidity":"79","pressure":"34270.27","rising":"0","visibility":"25.91"},"astronomy":{"sunrise":"4:49 am","sunset":"9:8 pm"},"image":{"title":"Yahoo! Weather","width":"142","height":"18","link":"http://weather.yahoo.com","url":"http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif"},"item":{"title":"Conditions for London, England, GB at 11:00 AM BST","lat":"51.507702","long":"-0.12797","link":"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-44418/","pubDate":"Mon, 30 May 2016 11:00 AM BST","condition":{"code":"26","date":"Mon, 30 May 2016 11:00 AM BST","temp":"13","text":"Cloudy"},"forecast":[{"code":"26","date":"30 May 2016","day":"Mon","high":"19","low":"10","text":"Cloudy"},{"code":"39","date":"31 May 2016","day":"Tue","high":"15","low":"11","text":"Scattered Showers"},{"code":"26","date":"01 Jun 2016","day":"Wed","high":"18","low":"12","text":"Cloudy"},{"code":"23","date":"02 Jun 2016","day":"Thu","high":"18","low":"12","text":"Breezy"},{"code":"28","date":"03 Jun 2016","day":"Fri","high":"18","low":"11","text":"Mostly Cloudy"},{"code":"28","date":"04 Jun 2016","day":"Sat","high":"20","low":"11","text":"Mostly Cloudy"},{"code":"30","date":"05 Jun 2016","day":"Sun","high":"21","low":"11","text":"Partly Cloudy"},{"code":"30","date":"06 Jun 2016","day":"Mon","high":"22","low":"13","text":"Partly Cloudy"},{"code":"28","date":"07 Jun 2016","day":"Tue","high":"23","low":"13","text":"Mostly Cloudy"},{"code":"39","date":"08 Jun 2016","day":"Wed","high":"21","low":"13","text":"Scattered Showers"}],"description":"<![CDATA[<img src=\\"http://l.yimg.com/a/i/us/we/52/26.gif\\"/>\\n<BR />\\n<b>Current Conditions:</b>\\n<BR />Cloudy\\n<BR />\\n<BR />\\n<b>Forecast:</b>\\n<BR /> Mon - Cloudy. High: 19Low: 10\\n<BR /> Tue - Scattered Showers. High: 15Low: 11\\n<BR /> Wed - Cloudy. High: 18Low: 12\\n<BR /> Thu - Breezy. High: 18Low: 12\\n<BR /> Fri - Mostly Cloudy. High: 18Low: 11\\n<BR />\\n<BR />\\n<a href=\\"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-44418/\\">Full Forecast at Yahoo! Weather</a>\\n<BR />\\n<BR />\\n(provided by <a href=\\"http://www.weather.com\\" >The Weather Channel</a>)\\n<BR />\\n]]>","guid":{"isPermaLink":"false"}}}}}}',
+  tipo: 'weather',
+  dia: '1',
+  horas: '13:5',
+  destinatario: 'inma',
+  leido: false,
+  _id: 574c1e5ce67b62b01f00000c }
+[2016-05-30 13:05:27.976] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#vP1vo5EZGCUY0hu2AAAo
+[2016-05-30 13:05:27.999] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 13:05:29.144] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 13:05:32.305] [INFO] CHAT - POST /addMessage - OK | from sergio to inma
+{ __v: 0,
+  author: 'sergio',
+  text: '22',
+  tipo: 'ocupacion',
+  dia: '1',
+  horas: '13:5',
+  destinatario: 'inma',
+  leido: false,
+  _id: 574c1e7ce67b62b01f00000d }
+[2016-05-30 13:05:40.959] [INFO] CHAT - POST /addMessage - OK | from sergio to inma
+{ __v: 0,
+  author: 'sergio',
+  text: '20',
+  tipo: 'ocupacion',
+  dia: '1',
+  horas: '13:5',
+  destinatario: 'inma',
+  leido: false,
+  _id: 574c1e84e67b62b01f00000e }
+[2016-05-30 13:06:06.810] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#ISc6UHeXM4544XCFAAAp
+[2016-05-30 13:06:06.830] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 13:06:08.480] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 13:06:17.775] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#vYJuvF-rIuIPeEzkAAAq
+[2016-05-30 13:06:17.798] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 13:06:18.824] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 13:06:21.349] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&edu
+[2016-05-30 13:06:21.830] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-30 13:06:22.435] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&edu
+[2016-05-30 13:06:23.342] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-30 13:06:25.999] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 13:06:40.651] [INFO] CHAT - POST /addMessage - OK | from sergio to inma
+{ __v: 0,
+  author: 'sergio',
+  text: '{"query":{"count":1,"created":"2016-05-30T11:06:40Z","lang":"es-ES","results":{"channel":{"units":{"distance":"km","pressure":"mb","speed":"km/h","temperature":"C"},"title":"Yahoo! Weather - Paris, Ile-de-France, FR","link":"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-615702/","description":"Yahoo! Weather for Paris, Ile-de-France, FR","language":"en-us","lastBuildDate":"Mon, 30 May 2016 01:06 PM CEST","ttl":"60","location":{"city":"Paris","country":"France","region":" Ile-de-France"},"wind":{"chill":"55","direction":"340","speed":"22.53"},"atmosphere":{"humidity":"89","pressure":"33897.76","rising":"0","visibility":"25.11"},"astronomy":{"sunrise":"5:52 am","sunset":"9:45 pm"},"image":{"title":"Yahoo! Weather","width":"142","height":"18","link":"http://weather.yahoo.com","url":"http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif"},"item":{"title":"Conditions for Paris, Ile-de-France, FR at 12:00 PM CEST","lat":"48.85693","long":"2.3412","link":"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-615702/","pubDate":"Mon, 30 May 2016 12:00 PM CEST","condition":{"code":"12","date":"Mon, 30 May 2016 12:00 PM CEST","temp":"14","text":"Rain"},"forecast":[{"code":"12","date":"30 May 2016","day":"Mon","high":"16","low":"12","text":"Rain"},{"code":"11","date":"31 May 2016","day":"Tue","high":"15","low":"12","text":"Showers"},{"code":"26","date":"01 Jun 2016","day":"Wed","high":"18","low":"13","text":"Cloudy"},{"code":"39","date":"02 Jun 2016","day":"Thu","high":"19","low":"14","text":"Scattered Showers"},{"code":"28","date":"03 Jun 2016","day":"Fri","high":"20","low":"14","text":"Mostly Cloudy"},{"code":"28","date":"04 Jun 2016","day":"Sat","high":"20","low":"15","text":"Mostly Cloudy"},{"code":"28","date":"05 Jun 2016","day":"Sun","high":"21","low":"15","text":"Mostly Cloudy"},{"code":"30","date":"06 Jun 2016","day":"Mon","high":"23","low":"15","text":"Partly Cloudy"},{"code":"30","date":"07 Jun 2016","day":"Tue","high":"24","low":"16","text":"Partly Cloudy"},{"code":"47","date":"08 Jun 2016","day":"Wed","high":"23","low":"16","text":"Scattered Thunderstorms"}],"description":"<![CDATA[<img src=\\"http://l.yimg.com/a/i/us/we/52/12.gif\\"/>\\n<BR />\\n<b>Current Conditions:</b>\\n<BR />Rain\\n<BR />\\n<BR />\\n<b>Forecast:</b>\\n<BR /> Mon - Rain. High: 16Low: 12\\n<BR /> Tue - Showers. High: 15Low: 12\\n<BR /> Wed - Cloudy. High: 18Low: 13\\n<BR /> Thu - Scattered Showers. High: 19Low: 14\\n<BR /> Fri - Mostly Cloudy. High: 20Low: 14\\n<BR />\\n<BR />\\n<a href=\\"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-615702/\\">Full Forecast at Yahoo! Weather</a>\\n<BR />\\n<BR />\\n(provided by <a href=\\"http://www.weather.com\\" >The Weather Channel</a>)\\n<BR />\\n]]>","guid":{"isPermaLink":"false"}}}}}}',
+  tipo: 'weather',
+  dia: '1',
+  horas: '13:6',
+  destinatario: 'inma',
+  leido: false,
+  _id: 574c1ec0e67b62b01f00000f }
+[2016-05-30 13:06:49.546] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#JFL4VQCrWdDNAU_tAAAr
+[2016-05-30 13:06:49.564] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: inma
+[2016-05-30 13:06:50.539] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: inma&sergio
+[2016-05-30 13:07:09.252] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#Z6k-oiYvGlJq-LuWAAAs
+[2016-05-30 13:07:09.267] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: inma
+[2016-05-30 13:07:10.011] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: inma&sergio
+[2016-05-30 13:07:35.763] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#gUr7U6TT2zDT7d_LAAAt
+[2016-05-30 13:07:35.780] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: inma
+[2016-05-30 13:07:36.588] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: inma&sergio
+[2016-05-30 13:07:47.904] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#76OMTl_KBoNTXE8GAAAu
+[2016-05-30 13:07:47.932] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 13:07:49.573] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 13:07:51.620] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&edu
+[2016-05-30 13:07:52.467] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-30 13:07:53.022] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 13:08:25.359] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#oHM2uY1q61ZfXQrzAAAv
+[2016-05-30 13:08:25.376] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 13:08:26.446] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 13:08:51.354] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#YJo_PjHoZ5EmqO2qAAAw
+[2016-05-30 13:08:51.373] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 13:08:53.036] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 13:09:03.514] [INFO] CHAT - POST /addMessage - OK | from sergio to inma
+{ __v: 0,
+  author: 'sergio',
+  text: '{"query":{"count":0,"created":"2016-05-30T11:09:03Z","lang":"es-ES","results":null}}',
+  tipo: 'weather',
+  dia: '1',
+  horas: '13:9',
+  destinatario: 'inma',
+  leido: false,
+  _id: 574c1f4fe67b62b01f000010 }
+[2016-05-30 13:09:46.246] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#ayKzM55xeqLD3_ZxAAAx
+[2016-05-30 13:09:46.264] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 13:09:46.785] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 13:09:52.194] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&edu
+[2016-05-30 13:09:52.635] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 13:10:02.905] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#kvesy6jCwOeLEQrWAAAy
+[2016-05-30 13:10:02.907] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 13:10:03.787] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 13:10:14.170] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 13:10:15.570] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#38lfg9WWMwh_Vc4TAAAz
+[2016-05-30 13:10:15.591] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 13:10:16.164] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 13:10:21.400] [INFO] CHAT - POST /addMessage - OK | from sergio to inma
+{ __v: 0,
+  author: 'sergio',
+  text: '{"query":{"count":1,"created":"2016-05-30T11:10:21Z","lang":"es-ES","results":{"channel":{"units":{"distance":"km","pressure":"mb","speed":"km/h","temperature":"C"},"title":"Yahoo! Weather - Madrid, Madrid, ES","link":"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-766273/","description":"Yahoo! Weather for Madrid, Madrid, ES","language":"en-us","lastBuildDate":"Mon, 30 May 2016 01:10 PM CEST","ttl":"60","location":{"city":"Madrid","country":"Spain","region":" Madrid"},"wind":{"chill":"59","direction":"270","speed":"0.00"},"atmosphere":{"humidity":"57","pressure":"31933.66","rising":"0","visibility":"25.91"},"astronomy":{"sunrise":"6:47 am","sunset":"9:38 pm"},"image":{"title":"Yahoo! Weather","width":"142","height":"18","link":"http://weather.yahoo.com","url":"http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif"},"item":{"title":"Conditions for Madrid, Madrid, ES at 12:00 PM CEST","lat":"40.421429","long":"-3.67163","link":"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-766273/","pubDate":"Mon, 30 May 2016 12:00 PM CEST","condition":{"code":"30","date":"Mon, 30 May 2016 12:00 PM CEST","temp":"15","text":"Partly Cloudy"},"forecast":[{"code":"28","date":"30 May 2016","day":"Mon","high":"21","low":"11","text":"Mostly Cloudy"},{"code":"34","date":"31 May 2016","day":"Tue","high":"22","low":"11","text":"Mostly Sunny"},{"code":"32","date":"01 Jun 2016","day":"Wed","high":"25","low":"9","text":"Sunny"},{"code":"30","date":"02 Jun 2016","day":"Thu","high":"26","low":"11","text":"Partly Cloudy"},{"code":"30","date":"03 Jun 2016","day":"Fri","high":"26","low":"14","text":"Partly Cloudy"},{"code":"34","date":"04 Jun 2016","day":"Sat","high":"26","low":"13","text":"Mostly Sunny"},{"code":"30","date":"05 Jun 2016","day":"Sun","high":"28","low":"14","text":"Partly Cloudy"},{"code":"30","date":"06 Jun 2016","day":"Mon","high":"29","low":"16","text":"Partly Cloudy"},{"code":"30","date":"07 Jun 2016","day":"Tue","high":"28","low":"17","text":"Partly Cloudy"},{"code":"30","date":"08 Jun 2016","day":"Wed","high":"29","low":"17","text":"Partly Cloudy"}],"description":"<![CDATA[<img src=\\"http://l.yimg.com/a/i/us/we/52/30.gif\\"/>\\n<BR />\\n<b>Current Conditions:</b>\\n<BR />Partly Cloudy\\n<BR />\\n<BR />\\n<b>Forecast:</b>\\n<BR /> Mon - Mostly Cloudy. High: 21Low: 11\\n<BR /> Tue - Mostly Sunny. High: 22Low: 11\\n<BR /> Wed - Sunny. High: 25Low: 9\\n<BR /> Thu - Partly Cloudy. High: 26Low: 11\\n<BR /> Fri - Partly Cloudy. High: 26Low: 14\\n<BR />\\n<BR />\\n<a href=\\"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-766273/\\">Full Forecast at Yahoo! Weather</a>\\n<BR />\\n<BR />\\n(provided by <a href=\\"http://www.weather.com\\" >The Weather Channel</a>)\\n<BR />\\n]]>","guid":{"isPermaLink":"false"}}}}}}',
+  tipo: 'weather',
+  dia: '1',
+  horas: '13:10',
+  destinatario: 'inma',
+  leido: false,
+  _id: 574c1f9de67b62b01f000011 }
+[2016-05-30 13:12:14.060] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#XeWzZAenNS0S2tu7AAA0
+[2016-05-30 13:12:14.082] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 13:12:15.323] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 13:12:21.200] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&edu
+[2016-05-30 13:12:21.567] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-30 13:12:21.966] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&edu
+[2016-05-30 13:12:22.488] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 13:13:10.217] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 13:13:12.597] [INFO] CHAT - POST /addMessage - OK | from sergio to inma
+{ __v: 0,
+  author: 'sergio',
+  text: '51',
+  tipo: 'ocupacion',
+  dia: '1',
+  horas: '13:13',
+  destinatario: 'inma',
+  leido: false,
+  _id: 574c2048e67b62b01f000012 }
+[2016-05-30 13:14:00.448] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#zsHzY_8isWztCwU0AAA1
+[2016-05-30 13:14:00.465] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 13:14:01.598] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 13:14:02.156] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&edu
+[2016-05-30 13:14:02.812] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-30 13:14:03.381] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&edu
+[2016-05-30 13:14:03.892] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 13:15:03.375] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&edu
+[2016-05-30 13:15:03.830] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-30 13:15:04.315] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 13:15:07.258] [INFO] CHAT - POST /addMessage - OK | from sergio to inma
+{ __v: 0,
+  author: 'sergio',
+  text: '60',
+  tipo: 'ocupacion',
+  dia: '1',
+  horas: '13:15',
+  destinatario: 'inma',
+  leido: false,
+  _id: 574c20bbe67b62b01f000013 }
+[2016-05-30 13:15:10.462] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 13:15:59.439] [INFO] CHAT - POST /addMessage - OK | from sergio to inma
+{ __v: 0,
+  author: 'sergio',
+  text: '{"query":{"count":1,"created":"2016-05-30T11:15:59Z","lang":"es-ES","results":{"channel":{"units":{"distance":"km","pressure":"mb","speed":"km/h","temperature":"C"},"title":"Yahoo! Weather - Lisbon, Lisbon, PT","link":"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-742676/","description":"Yahoo! Weather for Lisbon, Lisbon, PT","language":"en-us","lastBuildDate":"Mon, 30 May 2016 12:15 PM WEST","ttl":"60","location":{"city":"Lisbon","country":"Portugal","region":" Lisbon"},"wind":{"chill":"66","direction":"0","speed":"6.44"},"atmosphere":{"humidity":"57","pressure":"34439.59","rising":"0","visibility":"25.91"},"astronomy":{"sunrise":"6:14 am","sunset":"8:55 pm"},"image":{"title":"Yahoo! Weather","width":"142","height":"18","link":"http://weather.yahoo.com","url":"http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif"},"item":{"title":"Conditions for Lisbon, Lisbon, PT at 11:00 AM WEST","lat":"38.72567","long":"-9.15037","link":"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-742676/","pubDate":"Mon, 30 May 2016 11:00 AM WEST","condition":{"code":"30","date":"Mon, 30 May 2016 11:00 AM WEST","temp":"18","text":"Partly Cloudy"},"forecast":[{"code":"30","date":"30 May 2016","day":"Mon","high":"20","low":"12","text":"Partly Cloudy"},{"code":"32","date":"31 May 2016","day":"Tue","high":"23","low":"12","text":"Sunny"},{"code":"32","date":"01 Jun 2016","day":"Wed","high":"27","low":"13","text":"Sunny"},{"code":"28","date":"02 Jun 2016","day":"Thu","high":"24","low":"15","text":"Mostly Cloudy"},{"code":"30","date":"03 Jun 2016","day":"Fri","high":"20","low":"13","text":"Partly Cloudy"},{"code":"30","date":"04 Jun 2016","day":"Sat","high":"21","low":"13","text":"Partly Cloudy"},{"code":"30","date":"05 Jun 2016","day":"Sun","high":"22","low":"13","text":"Partly Cloudy"},{"code":"30","date":"06 Jun 2016","day":"Mon","high":"22","low":"14","text":"Partly Cloudy"},{"code":"30","date":"07 Jun 2016","day":"Tue","high":"21","low":"15","text":"Partly Cloudy"},{"code":"30","date":"08 Jun 2016","day":"Wed","high":"21","low":"14","text":"Partly Cloudy"}],"description":"<![CDATA[<img src=\\"http://l.yimg.com/a/i/us/we/52/30.gif\\"/>\\n<BR />\\n<b>Current Conditions:</b>\\n<BR />Partly Cloudy\\n<BR />\\n<BR />\\n<b>Forecast:</b>\\n<BR /> Mon - Partly Cloudy. High: 20Low: 12\\n<BR /> Tue - Sunny. High: 23Low: 12\\n<BR /> Wed - Sunny. High: 27Low: 13\\n<BR /> Thu - Mostly Cloudy. High: 24Low: 15\\n<BR /> Fri - Partly Cloudy. High: 20Low: 13\\n<BR />\\n<BR />\\n<a href=\\"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-742676/\\">Full Forecast at Yahoo! Weather</a>\\n<BR />\\n<BR />\\n(provided by <a href=\\"http://www.weather.com\\" >The Weather Channel</a>)\\n<BR />\\n]]>","guid":{"isPermaLink":"false"}}}}}}',
+  tipo: 'weather',
+  dia: '1',
+  horas: '13:15',
+  destinatario: 'inma',
+  leido: false,
+  _id: 574c20efe67b62b01f000014 }
+[2016-05-30 13:23:37.527] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 13:23:38.012] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&edu
+[2016-05-30 13:23:38.748] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-30 13:23:39.149] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&edu
+[2016-05-30 13:23:39.717] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 13:24:05.974] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#TmHZ2FqIeKwQcKgSAAA2
+[2016-05-30 13:24:05.992] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 13:24:07.327] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 13:24:09.116] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&edu
+[2016-05-30 13:24:10.108] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-30 13:24:11.037] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&edu
+[2016-05-30 13:24:11.661] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 16:26:34.945] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#aJsz_2jH5TkpM8B9AAAA
+[2016-05-30 16:26:34.960] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 16:26:37.062] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 16:27:14.315] [INFO] CHAT - POST /addMessage - OK | from sergio to inma
+{ __v: 0,
+  author: 'sergio',
+  text: '24',
+  tipo: 'ocupacion',
+  dia: '1',
+  horas: '16:27',
+  destinatario: 'inma',
+  leido: false,
+  _id: 574c4dc2768b4d101f000001 }
+[2016-05-30 16:27:18.218] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&edu
+[2016-05-30 16:27:18.732] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-30 16:27:19.312] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 16:27:19.835] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&edu
+[2016-05-30 16:27:20.469] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 16:30:02.382] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#NC0kZriFg7aAHmZ4AAAB
+[2016-05-30 16:30:02.401] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 16:30:48.235] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#mOMD8eCEFdVeQKrBAAAC
+[2016-05-30 16:30:48.255] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 16:30:59.824] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#Dh77_bfC-Rfy8OxoAAAD
+[2016-05-30 16:30:59.848] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 16:31:02.714] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 16:31:04.095] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&edu
+[2016-05-30 16:31:04.744] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-30 16:31:07.528] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&edu
+[2016-05-30 16:31:08.585] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 16:31:54.192] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 16:31:54.726] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&edu
+[2016-05-30 16:31:55.415] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-30 16:31:56.256] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 16:32:00.560] [INFO] CHAT - DELETE /deleteAllMessages - OK
+[2016-05-30 16:32:00.563] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 16:32:01.766] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&edu
+[2016-05-30 16:32:02.463] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-30 16:32:10.011] [INFO] CHAT - POST /addMessage - OK | from sergio to inma
+{ __v: 0,
+  author: 'sergio',
+  text: 'We',
+  tipo: 'text',
+  dia: '1',
+  horas: '16:32',
+  destinatario: 'inma',
+  leido: undefined,
+  _id: 574c4eea768b4d101f000002 }
+[2016-05-30 16:32:10.013] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 16:32:10.015] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 16:32:12.110] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-30 16:32:12.950] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 16:32:13.752] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&edu
+[2016-05-30 16:32:14.542] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-30 16:32:15.222] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&edu
+[2016-05-30 16:33:03.891] [INFO] CHAT - GET /getMessages - OK
+[2016-05-30 16:35:17.699] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#ax8l-FoMNXtSm9wdAAAE
+[2016-05-30 16:35:17.718] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 16:35:18.830] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&edu
+[2016-05-30 16:35:20.380] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-30 16:35:21.132] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 16:35:21.916] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-30 16:35:22.452] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 16:35:23.037] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-30 16:35:23.717] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&edu
+[2016-05-30 16:35:24.244] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-30 16:35:24.948] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 16:35:27.367] [INFO] CHAT - POST /addMessage - OK | from sergio to inma
+{ __v: 0,
+  author: 'sergio',
+  text: 'we',
+  tipo: 'text',
+  dia: '1',
+  horas: '16:35',
+  destinatario: 'inma',
+  leido: false,
+  _id: 574c4faf768b4d101f000003 }
+[2016-05-30 16:35:28.654] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&edu
+[2016-05-30 16:35:29.629] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-30 16:35:51.592] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#o1_4bJZfc9rG9iOsAAAF
+[2016-05-30 16:35:51.612] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 16:35:52.239] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&edu
+[2016-05-30 16:35:52.749] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 16:35:53.452] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-30 16:35:53.903] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&edu
+[2016-05-30 16:36:14.341] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&edu
+[2016-05-30 16:36:14.781] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&edu
+[2016-05-30 16:36:15.300] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 16:36:15.660] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 16:36:16.179] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&edu
+[2016-05-30 16:36:16.931] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&edu
+[2016-05-30 16:36:21.300] [INFO] CHAT - POST /addMessage - OK | from sergio to edu
+{ __v: 0,
+  author: 'sergio',
+  text: '{"query":{"count":1,"created":"2016-05-30T14:36:21Z","lang":"es-ES","results":{"channel":{"units":{"distance":"km","pressure":"mb","speed":"km/h","temperature":"C"},"title":"Yahoo! Weather - Madrid, Madrid, ES","link":"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-766273/","description":"Yahoo! Weather for Madrid, Madrid, ES","language":"en-us","lastBuildDate":"Mon, 30 May 2016 04:36 PM CEST","ttl":"60","location":{"city":"Madrid","country":"Spain","region":" Madrid"},"wind":{"chill":"68","direction":"250","speed":"11.27"},"atmosphere":{"humidity":"36","pressure":"31933.66","rising":"0","visibility":"25.91"},"astronomy":{"sunrise":"6:47 am","sunset":"9:38 pm"},"image":{"title":"Yahoo! Weather","width":"142","height":"18","link":"http://weather.yahoo.com","url":"http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif"},"item":{"title":"Conditions for Madrid, Madrid, ES at 03:00 PM CEST","lat":"40.421429","long":"-3.67163","link":"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-766273/","pubDate":"Mon, 30 May 2016 03:00 PM CEST","condition":{"code":"30","date":"Mon, 30 May 2016 03:00 PM CEST","temp":"20","text":"Partly Cloudy"},"forecast":[{"code":"28","date":"30 May 2016","day":"Mon","high":"21","low":"11","text":"Mostly Cloudy"},{"code":"34","date":"31 May 2016","day":"Tue","high":"22","low":"11","text":"Mostly Sunny"},{"code":"32","date":"01 Jun 2016","day":"Wed","high":"25","low":"9","text":"Sunny"},{"code":"30","date":"02 Jun 2016","day":"Thu","high":"26","low":"11","text":"Partly Cloudy"},{"code":"30","date":"03 Jun 2016","day":"Fri","high":"26","low":"14","text":"Partly Cloudy"},{"code":"34","date":"04 Jun 2016","day":"Sat","high":"26","low":"13","text":"Mostly Sunny"},{"code":"30","date":"05 Jun 2016","day":"Sun","high":"28","low":"14","text":"Partly Cloudy"},{"code":"30","date":"06 Jun 2016","day":"Mon","high":"29","low":"16","text":"Partly Cloudy"},{"code":"30","date":"07 Jun 2016","day":"Tue","high":"28","low":"17","text":"Partly Cloudy"},{"code":"30","date":"08 Jun 2016","day":"Wed","high":"29","low":"17","text":"Partly Cloudy"}],"description":"<![CDATA[<img src=\\"http://l.yimg.com/a/i/us/we/52/30.gif\\"/>\\n<BR />\\n<b>Current Conditions:</b>\\n<BR />Partly Cloudy\\n<BR />\\n<BR />\\n<b>Forecast:</b>\\n<BR /> Mon - Mostly Cloudy. High: 21Low: 11\\n<BR /> Tue - Mostly Sunny. High: 22Low: 11\\n<BR /> Wed - Sunny. High: 25Low: 9\\n<BR /> Thu - Partly Cloudy. High: 26Low: 11\\n<BR /> Fri - Partly Cloudy. High: 26Low: 14\\n<BR />\\n<BR />\\n<a href=\\"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-766273/\\">Full Forecast at Yahoo! Weather</a>\\n<BR />\\n<BR />\\n(provided by <a href=\\"http://www.weather.com\\" >The Weather Channel</a>)\\n<BR />\\n]]>","guid":{"isPermaLink":"false"}}}}}}',
+  tipo: 'weather',
+  dia: '1',
+  horas: '16:36',
+  destinatario: 'edu',
+  leido: false,
+  _id: 574c4fe5768b4d101f000004 }
+[2016-05-30 16:36:52.799] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#9-4xUT3HWvuS5wswAAAG
+[2016-05-30 16:36:52.819] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 16:36:53.807] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&edu
+[2016-05-30 16:36:54.269] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-30 16:36:55.119] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 16:36:55.653] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-30 16:36:56.782] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&edu
+[2016-05-30 16:37:18.172] [INFO] CHAT - ------------------- NEW CONNECTION FROM /#cxmIWGvzd_zwrskEAAAH
+[2016-05-30 16:37:18.190] [INFO] CHAT - GET /getDifferentConversations - OK | Conversation: sergio
+[2016-05-30 16:37:19.526] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&edu
+[2016-05-30 16:37:20.294] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-30 16:37:20.747] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&inma
+[2016-05-30 16:37:21.206] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&pablo
+[2016-05-30 16:37:21.572] [INFO] CHAT - GET /getMessageByAuthorDestinatario - OK | Conversation: sergio&edu
