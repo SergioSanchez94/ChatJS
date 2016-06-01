@@ -42,6 +42,9 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 	var listaBusqueda = document.getElementById("listaBusqueda");
 	listaBusqueda.style.display = "none";
 	
+	//Carga de Perfil
+	getProfile();
+	
 	var socket = io.connect('10.6.17.75', {
 		'forceNew' : true
 	});
@@ -575,9 +578,11 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 				
 				//Animacion
 				$('#messages').hide().fadeIn(200);
+				
+				document.getElementById("ChatBar").innerHTML = "Chat con " + destinatarioScope;
 
 			}
-		});	
+		});
 	}
 	
 	/**
@@ -758,6 +763,19 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 			});
 			
 	    });
+	}
+	
+	function getProfile(){
+		
+		$http.get('/getUsers/' + user).success(function(response,err){
+			if(!err){
+				console.log("ERROR: " + err);
+			}else{
+				console.log(response[0].profile);
+				document.getElementById("profile").src = response[0].profile;
+			}
+		});
+		
 	}
 	
 });
