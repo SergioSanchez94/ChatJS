@@ -159,8 +159,26 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 		if(!err){
 			console.log("ERROR");
 		}else{
-			conversaciones = response;
-			$scope.convers = conversaciones;
+			
+			var users = [];
+			var profiles = [];
+			
+			$scope.convers = response;
+			
+			users = response;
+			
+			for(var i=0; i<users.length; i++){
+				$http.get('/getUsers/' + users[i]).success(function(response,err){
+					if(!err){
+						console.log("ERROR");
+					}else{
+						console.log(response[0].profile);
+						profiles.push(response[0].profile);
+					}
+				});
+			}
+			
+			$scope.profiles = profiles;
 		}
 	});
 
@@ -643,6 +661,9 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 	    var array=[];
 
 	    reader.onload = function(evt){
+	    	
+	    	console.log(evt.target.result);
+	    	
 	    	array.push(user);
 	    	array.push(evt.target.result);
 	    	array.push(file.name);
@@ -765,13 +786,15 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 	    });
 	}
 	
+	/*
+	 * Carga la foto de perfil
+	 */
 	function getProfile(){
 		
-		$http.get('/getUsers/' + user).success(function(response,err){
+		$http.get('/getUsers/' + $scope.user).success(function(response,err){
 			if(!err){
 				console.log("ERROR: " + err);
 			}else{
-				console.log(response[0].profile);
 				document.getElementById("profile").src = response[0].profile;
 			}
 		});

@@ -2,6 +2,7 @@ module.exports = function(app) {
 
 	//Modelos de BBDD
 	var Message = require('../models/MessageModel.js');
+	var Users = require('../models/UserModel.js');
 	
 	//Modulos
 	var express = require('express');  
@@ -153,7 +154,7 @@ module.exports = function(app) {
 					
 					if(docs[i].author == author){
 						if(!comprobarConversaciones(conversaciones,docs[i].destinatario)){
-							conversaciones.push(docs[i].destinatario);					
+							conversaciones.push(docs[i].destinatario);	
 						}
 					}else if(docs[i].destinatario == author){
 						if(!comprobarConversaciones(conversaciones,docs[i].author)){

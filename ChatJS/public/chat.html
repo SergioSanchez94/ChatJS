@@ -42,6 +42,8 @@
 			<input type="button" class="btn btn-primary" value="Nuevo Chat" style="width: 9%; float: left; margin-right: 10px; margin-left: 10px; margin-bottom: 10px" ng-click="shownuevoDestinatario = ! shownuevoDestinatario; showNuevoDestinatario(); nuevoDestinatario = ''">	
 			<a class="btn btn-primary" style="width: 9%; float: left; margin-right: 10px; margin-bottom: 10px">Editar</a>
 			<a data-toggle="modal" href="#modalEliminarHistorial" class="btn btn-danger" style="width: 9%; float: left; margin-right: 10px; margin-bottom: 10px">Eliminar</a>
+							
+			<img style="float: right; padding: 5px;" src="" alt="profile" id="profile" class="profile" height="3.5%" width="3.5%">				
 										
 			<div class="dropdown" style="width: 9%; float: right;">
 			    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Adjuntar...
@@ -52,8 +54,6 @@
 		      		<li><a data-toggle="modal" href="#modalWeather"> Tiempo</a></li>
 			    </ul>
 			 </div>
-			 
-			 <img style="float: right;" src="" alt="profile" id="profile" class="profile" height="42" width="42">
 			 
 			 <div id="modalWeather" class="modal fade in" role="dialog" style="display: none;">
 			    <div class="modal-content">
@@ -98,7 +98,9 @@
 			<!-- Lista de conversaciones -->
 			<div id="conversations" class="conversations">			
 				<ul class="list-group" style="width: 100%;">
-					<li class="list-group-item" ng-repeat="usuario in convers" ng-click='getConversation(usuario); shownuevoDestinatario = ! shownuevoDestinatario;'>{{usuario}}</li>
+					<li class="list-group-item" ng-repeat="usuario in convers track by $index" ng-click='getConversation(usuario); shownuevoDestinatario = ! shownuevoDestinatario;'> 
+						<img style="float: left; padding: 5px;" ng-src="{{profiles[$index]}}" alt="profile" id="converProf" class="converProf" height="30px" width="30px"> {{usuario}}
+					</li>
 				</ul>
 			</div>
 			
