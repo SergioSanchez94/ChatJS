@@ -140,6 +140,28 @@ module.exports = function(app) {
 			//logger.error("GET /getUsers - " + e);
 		}
 	};
+	
+	updateProfilePhoto = function(req, res){
+		try{
+			
+			var user = req.body.user;
+			var photo = req.body.photo;
+			
+			Users.findOneAndUpdate({"user" : user} , {$set: {"profile": photo}},function(err, docs) {
+				res.json(docs);
+				if(err){
+					//logger.error("GET /updateProfilePhoto - " + err);
+					console.log(err);
+				}else{
+					//logger.info("GET /updateProfilePhoto - OK");
+					console.log("OK");
+				}	
+			});
+		}catch(e){
+			res.json(e);
+			//logger.error("GET /updateProfilePhoto - " + e);
+		}
+	}
 
 	// Link routes and functions
 	app.get('/user/:name/:pwd', findByName);
@@ -147,5 +169,6 @@ module.exports = function(app) {
 	app.post('/addUser', addUser);
 	app.delete('/deleteUser', deleteUser);
 	app.get('/getUsers/:user', getUsers);
+	app.post('/updateProfilePhoto', updateProfilePhoto);
 
 }

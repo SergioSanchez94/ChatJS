@@ -662,8 +662,6 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 
 	    reader.onload = function(evt){
 	    	
-	    	console.log(evt.target.result);
-	    	
 	    	array.push(user);
 	    	array.push(evt.target.result);
 	    	array.push(file.name);
@@ -795,10 +793,47 @@ angular.module('app').controller("MainController", function($scope, $window, $ht
 			if(!err){
 				console.log("ERROR: " + err);
 			}else{
-				document.getElementById("profile").src = response[0].profile;
+				//document.getElementById("profile").src = response[0].profile;
+				$scope.imgProfileUser = response[0].profile;
 			}
 		});
 		
+	}
+	
+	/*
+	 * Almacena una foto seleccionada en el scope
+	 */
+	$('#updatePhoto').on('change', function(e){
+
+	    var file = e.originalEvent.target.files[0],
+	        reader = new FileReader();
+	    
+	    var array=[];
+
+	    reader.onload = function(evt){
+	    	
+	    	 $('#profileUpdate').attr('src', evt.target.result);
+	    	
+	    	//console.log(evt.target.result);
+	    	$scope.imgProfileUser = evt.target.result;
+	    	
+	    };
+	    reader.readAsDataURL(file);
+	});
+	
+	
+	/*
+	 * Actualiza la foto de perfil seleccionada previamente
+	 */
+	$scope.guardarCambiosPerfil = function(){
+		
+		$http.post('/updateProfilePhoto', {"user": user, "photo" : $scope.imgProfileUser}).success(function(response,err){
+			if(!err){
+				console.log("ERROR");
+			}else{
+				console.log("OK");
+			}
+		});
 	}
 	
 });
